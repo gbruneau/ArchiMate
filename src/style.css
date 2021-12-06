@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+/* === Set colors === */
+
+:root {
+    --colBase: #00816a;
+    --colDark: #206156;
+    --colLight: #A0E0D5;
+    --colBright: #80FFE9;
+    --colToolTips: #ECECC5;
+    --colDialog: #ECF9F6;
+
+   }
+
+
+body {
+    background-color:var(--colLight);
+}
+
+
+/* === Archimate Layers Header === */
+#introHeader {
+    text-shadow: 0px 0px 4px black;
+    color: #DDD;
+}
+
+
+.layerTable {
+    border-collapse: collapse;   
+    table-layout: auto;
+    width: 100%; 
+}
+
+.layerTable td, .layerTable th {
+    border: 1px solid #666;
+    padding: 8px;
+  }
+  
+ .layerTable th{
+  vertical-align: bottom;
+}
+
+.layerTable td{
+    vertical-align: top;
+  }
+  
+
+ #motivationLayer {
+    color: #eff0fe;
+    text-shadow: 0px 0px 4px black;
+}
+
+#motivationLayerContent{
+    background-color:  #eff0fe;
+}
+
+#stratLayer {
+    color: #F8E8C1;
+    text-shadow: 0px 0px 4px black;
+}
+
+#stratLayerContent{
+    background-color:  #F8E8C1;
+}
+
+#busLayer {
+    text-shadow: 0px 0px 4px black;
+    color: #FFFFCD;
+}
+
+
+#appLayer {
+    text-shadow: 0px 0px 4px black;
+    color: #C3F0FF;
+}
+
+#appLayerContent {
+    background-color: #ddF5FD;
+}
+
+#techLayer {
+    text-shadow: 0px 0px 4px black;
+    color: #CAFFCA;
+}
+
+#techLayerContent {
+    background-color: #E7FEE7;
+}
+
+#phyLayer {
+    text-shadow: 0px 0px 4px black;
+    color: #98FF98;
+}
+
+
+#phyLayerContent {
+    background-color: #CFFCCF;
+}
+
+
+#impLayer {
+    text-shadow: 0px 0px 4px black;
+    color: #FFE1E1;
+}
+
+#impLayerContent {
+    background-color: #FFE1E1;
+}
+
+/*  === Elements inside the layer === */
+
+.arcElem {
+    max-width: 125px;  
+    height: auto;  
+}
+
+.arcElem:hover{
+    filter: drop-shadow(8px 8px 10px var(--colDark));
+}
+
+.arcExample{
+    max-width: 700px;  
+    height: auto;  
+}
+
+.arcBigDiagram{
+    max-width: 800px;  
+    height: auto;  
+}
+
+
+
+/* Font family */
+
+h1, h2, h3, h4 {
+    font-family:  'Oswald', sans-serif;
+}
+
+/* Relationship References Dialog */
+
+.gbDialog table {
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+background-color: white !important;
+}
+
+.gbDialog img {
+    max-width: 100px;  
+    height: auto;  
+}
+
+.gbDialog img:hover {
+    filter: drop-shadow(8px 8px 10px var(--colDark));
+}
+
+.gbDialog th {
+    background-color: #999;
+    color: white;
+}
+
+.gbDialog td {
+    vertical-align: bottom;
+    text-align:center;
+}
+
+.gbDialog table , .gbDialog th, .gbDialog td
+{
+border: 1px solid #000;
+}
+
+.gbDialog {
+    background-color:var(--colDialog) !important;
+}
+
+.ui-tooltip-content{
+    background-color: var(--colToolTips);
+}
+
+.mainTitle{
+    color: var(--colBase);
+    filter: drop-shadow(2px 2px 5px var(--colBase));
+}
+
+.ui-dialog {
+    filter:drop-shadow(8px 8px 10px grey);  
+  }
+
+  .refUrl {
+    text-align: center;
+  }

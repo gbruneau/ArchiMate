@@ -1,0 +1,22 @@
+{
+  "name": "archimate",
+  "description": "Archimate Reference",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  },
+  "scripts": {
+    "serve": "http-server src -p 8081"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbruneau/ArchiMate.git"
+  },
+  "author": "Guy Bruneau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbruneau/ArchiMate/issues"
+  },
+  "homepage": "https://github.com/gbruneau/ArchiMate#readme"
+}
