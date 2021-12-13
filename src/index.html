@@ -12,10 +12,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="app.js" />
     </script>
+<script>
+
+</script>
+
 </head>
 
 <body>
-
     <!-- === Dialog Box for Relationships === -->
 
     <div id="diagRef" title="Relationships Reference" class="gbDialog">
@@ -94,15 +97,20 @@
                         Junction
                     </td>
                 </tr>
-
-
             </tbody>
         </table>
+    </div>
+
+    <!-- === Image Zoom Dialog ===-->
+
+    <div id="diagExample">
+        <img src="" autofocus>
     </div>
 
     <!-- === Main Layout === -->
 
     <h1 class="mainTitle">ArchiMate 3 Cheat Sheet</h1>
+    <div class="gbHelp">?</div>
     <div id="layers">
 
         <!-- === INTRODUCTION -->
@@ -153,17 +161,21 @@
                                 <ul>
                                     <li><a href="#mExample1">1</a></li>
                                     <li><a href="#mExample2">2</a></li>
+                                    <li><a href="#mExample3">3</a></li>
                                 </ul>
                                 <div id="mExample1">
-                                    <h3>Goal, Outcome, Principle, Requirement, and Constraint</h3> 
-                                    <img src="images/sExample1.png" class="arcExample">
+                                    <h3>Stakeholder, Driver, and Assessment</h3> 
+                                    <img src="images/mExample1.png" class="arcExample">
                                     <br>
                                 </div>
                                 <div id="mExample2">
-                                    <h3>Meaning and Value</h3>
-                                    <img src="images/sExample2.png" class="arcExample">
+                                    <h3>Goal, Outcome, Principle, Requirement, and Constraint</h3>
+                                    <img src="images/mExample2.png" class="arcExample">
                                 </div>
-
+                                <div id="mExample3">
+                                    <h3>Meaning and Value</h3>
+                                    <img src="images/mExample3.png" class="arcExample">
+                                </div>
                             </div>
                         </td>
                     </tr>
@@ -199,20 +211,12 @@
                             <div class="gbTabs">
                                 <ul>
                                     <li><a href="#sExample1">1</a></li>
-                                    <li><a href="#sExample2">2</a></li>
                                 </ul>
                                 <div id="sExample1">
                                     <h3>Capability, Resource, and Course of Action</h3>
                                     <img src="images/sExample1.png" class="arcExample">
                                 </div>
-                                <div id="sExample2">
-                                    <h3>Value Stream with Capability Cross-Mapping</h3>
-                                    <img src="images/sExample2.png" class="arcExample">
-                                </div>
-
                             </div>
-
-
                         </td>
                     </tr>
                     <tr>
@@ -224,10 +228,107 @@
                                 title="A course of action represents an approach or plan for configuring some capabilities and resources of the enterprise, undertaken to achieve a goal.">
                         </td>
                     </tr>
+                    <tr>
+                        <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
+                        <td>
+                            <img src="images/sLocation.png" class="arcElem" title="Represents a physical location.">
+                        </td>
+                    </tr>
+
                 </tbody>
             </table>
 
         </div>
+
+    <!-- === Busines === -->    
+    <h2 id="bLayer">Business Layer</h2>
+    <div id="bLayerContent">
+        
+        <table class="layerTable">
+            <thead>
+                <tr>
+                    <th scope="col">Section</th>
+                    <th scope="col">Icon</th>
+                    <th scope="col">Examples</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="1" rowspan="1">Active<br>Structure</td>
+                    <td>
+                        <img src="images/bActor.png" class="arcElem" title="Business Actor: Represents a business entity that is capable of performing behavior.">
+                        <br>
+                        <img src="images/bRole.png" class="arcElem" title="Business Role: Represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular action or event.">
+                        <br>
+                        <img src="images/bColl.png" class="arcElem" title="Business Collaboration: Represents an aggregate of two or more business internal active structure elements that work together to perform collective behavior.">
+                        <br>
+                        <img src="images/bInterface.png" class="arcElem" title="Business interface: Represents a point of access where a business service is made available to the environment.">
+                    </td>
+                    <td colspan="1" rowspan="0">
+                        <div class="gbTabs">
+                            <ul>
+                                <li><a href="#bExample1">1</a></li>
+                                <li><a href="#bExample2">2</a></li>
+                                <li><a href="#bExample3">3</a></li>
+                                <li><a href="#bExample4">4</a></li>
+                            </ul>
+                            <div id="bExample1">
+                                <h3>Business Active Structure Elements</h3>
+                                <img src="images/bExample1.png" class="arcExample">
+                            </div>
+                            <div id="bExample2">
+                                <h3>Business Behavior Elements</h3>
+                                <img src="images/bExample2.png" class="arcExample">
+                            </div>
+                            <div id="bExample3">
+                                <h3>Business Passive Structure Elements</h3>
+                                <img src="images/bExample3.png" class="arcExample">
+                            </div>
+                            <div id="bExample4">
+                                <h3>Business Composite Element: Product</h3>
+                                <img src="images/bExample4.png" class="arcExample">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="1">Behavior<br>Element</td>
+                    <td>
+                        <img src="images/bProcess.png" class="arcElem" title="Business Process: Represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services.">
+                        <br>
+                        <img src="images/bFunction.png" class="arcElem" title="Business Function: Represents a collection of business behavior based on a chosen set of criteria (typically required business resources and/or competencies), closely aligned to an organization, but not necessarily explicitly governed by the organization.">
+                        <br>
+                        <img src="images/bInterraction.png" class="arcElem" title="Business Interaction: Represents a unit of collective business behavior performed by (a collaboration of) two or more business actors, business roles, or business collaborations.">
+                        <br>
+                        <img src="images/bEvent.png" class="arcElem" title="Business Event: Represents an organizational state change.">
+                        <br>
+                        <img src="images/bService.png" class="arcElem" title="Business Service: Represents explicitly defined behavior that a business role, business actor, or business collaboration exposes to its environment.">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
+                    <td>
+                        <img src="images/bObject.png" class="arcElem" title="Business Object: Represents a concept used within a particular business domain.">
+                        <br>
+                        <img src="images/bContract.png" class="arcElem" title="Contract: Represents a formal or informal specification of an agreement between a provider and a consumer that specifies the rights and obligations associated with a product and establishes functional and non-functional parameters for interaction.">
+                        <br>
+                        <img src="images/bRepresentation.png" class="arcElem" title="Representation: Represents a perceptible form of the information carried by a business object.">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="1" rowspan="1">Composite<br>Element</td>
+                    <td>
+                        <img src="images/bProduct.png" class="arcElem" title="Product: Represents a coherent collection of services and/or passive structure elements, accompanied by a contract/set of agreements, which is offered as a whole to (internal or external) customers.">
+                    </td>
+                </tr>
+
+
+            </tbody>
+        </table>
+
+    </div>
+
 
     <!-- === APPLICATION ===-->
     <h2 id="appLayer">Application Layer</h2>
@@ -459,7 +560,7 @@
 
     </div>
 <p class="refUrl">
-<a href="https://pubs.opengroup.org/architecture/archimate3-doc/toc.html" >Official Archimate 3 Reference  from the Open Group. </a>   
+<a href="https://pubs.opengroup.org/architecture/archimate3-doc/toc.html" target="openGroup">Official Archimate 3 Reference  from the Open Group. </a>   
 </p>
 </body>
 

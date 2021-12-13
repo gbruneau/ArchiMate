@@ -17,6 +17,9 @@
 
 body {
     background-color:var(--colLight);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -38,7 +41,12 @@ body {
     padding: 8px;
   }
   
- .layerTable th{
+
+ .layerTable th:nth-child(3) {
+    width: 90%;
+} 
+
+  .layerTable th{
   vertical-align: bottom;
 }
 
@@ -65,9 +73,13 @@ body {
     background-color:  #F8E8C1;
 }
 
-#busLayer {
+#bLayer {
     text-shadow: 0px 0px 4px black;
     color: #FFFFCD;
+}
+
+#bLayerContent {
+    background-color: #FFFFCD;
 }
 
 
@@ -121,8 +133,10 @@ body {
 }
 
 .arcExample{
-    max-width: 700px;  
+    max-width: 500px;  
+    max-height: 300px;  
     height: auto;  
+    width: auto;  
 }
 
 .arcBigDiagram{
@@ -138,22 +152,18 @@ h1, h2, h3, h4 {
     font-family:  'Oswald', sans-serif;
 }
 
-/* Relationship References Dialog */
+/* Common to all Dialog */
+
+.gbDialog {
+    background-color:var(--colDialog) !important;
+}
+
 
 .gbDialog table {
 margin-left: auto;
 margin-right: auto;
 border-collapse: collapse;
 background-color: white !important;
-}
-
-.gbDialog img {
-    max-width: 100px;  
-    height: auto;  
-}
-
-.gbDialog img:hover {
-    filter: drop-shadow(8px 8px 10px var(--colDark));
 }
 
 .gbDialog th {
@@ -171,9 +181,19 @@ background-color: white !important;
 border: 1px solid #000;
 }
 
-.gbDialog {
-    background-color:var(--colDialog) !important;
+/* === Relationships Dialog ===*/ 
+
+#diagRef img {
+    max-width: 100px;  
+    height: auto;  
 }
+
+#diagRef img:hover {
+    filter: drop-shadow(8px 8px 10px var(--colDark));
+}
+
+
+/*  === Tooltips === */
 
 .ui-tooltip-content{
     background-color: var(--colToolTips);
@@ -181,6 +201,7 @@ border: 1px solid #000;
 
 .mainTitle{
     color: var(--colBase);
+    background-color: white;
     filter: drop-shadow(2px 2px 5px var(--colBase));
 }
 
@@ -191,3 +212,22 @@ border: 1px solid #000;
   .refUrl {
     text-align: center;
   }
+
+  .gbHelp{
+      width: 30px;
+      height: 30px;
+      background-color: var(--colDark);
+      color: var(--colLight);
+      text-align: center;
+      position: absolute;
+      right:30px;
+      top: 30px;
+      z-index: 1;
+      font-size: 30px;
+  }
+
+#diagExample img {
+    border: var(--colBase);
+    width: 100%;
+    height: auto;
+}
