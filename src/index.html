@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="lib/zoom-by-ironex.min.js"></script>
     <script src="app.js" />
     </script>
 <script>
@@ -101,12 +102,6 @@
         </table>
     </div>
 
-    <!-- === Image Zoom Dialog ===-->
-
-    <div id="diagExample">
-        <img src="" autofocus>
-    </div>
-
     <!-- === Main Layout === -->
 
     <h1 class="mainTitle">ArchiMate 3 Cheat Sheet</h1>
@@ -118,6 +113,9 @@
         <h2 id="introHeader">Introduction</h2>
         <div>
             <img src="images/allLayers.png" class="arcBigDiagram">
+            <br>This cheat sheet is a brief overview of the Archimate Standard for Architecture.<br>Please refer to the <a href="https://pubs.opengroup.org/architecture/archimate3-doc/toc.html" target="openGroup">Official Archimate 3 Reference  from the Open Group</a> for more information and detail.
+            <br><br>
+            On all the examples, you can use you mouse weel to zomm in/zoom out.
         </div>
         <!-- === MOTIVATION ===-->    
 
@@ -166,7 +164,6 @@
                                 <div id="mExample1">
                                     <h3>Stakeholder, Driver, and Assessment</h3> 
                                     <img src="images/mExample1.png" class="arcExample">
-                                    <br>
                                 </div>
                                 <div id="mExample2">
                                     <h3>Goal, Outcome, Principle, Requirement, and Constraint</h3>
@@ -182,11 +179,7 @@
   
                 </tbody>
             </table>
-
-
-
         </div>
-  
 
 
         <!-- === STRATEGY  ===-->
@@ -469,6 +462,8 @@
                     <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
                     <td>
                         <img src="images/tArtifact.png" class="arcElem" title="Represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.">
+                        <br>
+                        <img src="images/tObject.png" class="arcElem" title="Data Object: Represents a data structure.">
                     </td>
                 </tr>
             </tbody>
@@ -523,7 +518,7 @@
     </div>
 
     <h2 id="impLayer">Implementation & Migration</h2>
-    <div id="" >
+    <div id="impLayerContent" >
         <table class="layerTable">
             <thead>
                 <tr>
