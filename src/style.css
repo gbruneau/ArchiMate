@@ -37,8 +37,9 @@ body {
 
 .layerTable td, .layerTable th {
     border: 1px solid #666;
-    padding: 8px;
+    padding: 2px;
   }
+
   
 
  .layerTable th:nth-child(3) {
@@ -151,6 +152,10 @@ h1, h2, h3, h4 {
     font-family:  'Oswald', sans-serif;
 }
 
+h3 {
+    margin:  0px 0px 10px 10px;
+}
+
 /* Common to all Dialog */
 
 .gbDialog {
@@ -232,13 +237,16 @@ border: 1px solid #000;
 }
 
 /* For Zoom Image */
-.container{ height: 500px;  max-width: 700px; width: 700px; }
+
+.container{ height: 600px;  max-width: 800px; width: 800px; }
 
 
+/*
 .container .zoom{ background-color: #DDD; height: 100%; margin: auto; overflow: hidden; position: relative; width: 100%; }
+*/
+.container .zoom{  height: 100%; margin: auto; overflow: hidden; position: relative; width: 100%; }
 
-.container .zoom img{ bottom: 0; display: block; left: 0; margin: auto; max-height: 100%; max-width: 100%; position: absolute; right: 0; top: 0;
-    filter: drop-shadow(5px 5px 10px black);  
+.container .zoom img{ bottom: 0; display: block; left: 0; margin: 0px; max-height: 100%; max-width: 100%; position: absolute; right: 0; top: 0;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
@@ -252,3 +260,22 @@ border: 1px solid #000;
   transition: -webkit-transform ease 200ms;
   transition: transform ease 200ms;
 }
+
+/* Override default UI Styles */
+
+.ui-tabs-panel {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.ui-tabs-anchor {
+    height: 10px;
+    padding: 2px;
+}
+
+.ui-accordion-content
+{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+

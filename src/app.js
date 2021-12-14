@@ -45,14 +45,21 @@ $(function () {
 
     /*   Add Zoom  */
 
-    var newImg;
-    $(".arcExample").each(function () {
-        src=$(this).attr('src');
-        newImg = '<div class="container"><div class="zoom"><img  src=' + src + '></div></div>';
-        $(newImg).insertAfter(this);
-        console.log(newImg);
-        $(this).css('display', 'none');
+    function addZoom(obj)
+    {
+        var newImg;
+        src=$(obj).attr('src');
+        newImg = '<div class="container" ><div class="zoom"><img  src=' + src + '></div></div>';
+        $(newImg).insertAfter(obj);
+        $(obj).css('display', 'none');
+    }
+
+
+    /* var newImg; */
+    $(".arcExample , .arcBigDiagram").each(function () {
+        addZoom(this);
     })
-    
+        
+
     zoom();
 });
