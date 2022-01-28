@@ -43,6 +43,44 @@ $(function () {
         });
     });
 
+
+    /* Add full screen on click */
+    function toggleFull(targetelement) {
+        var inFullElem = document.fullscreenElement;
+        if (inFullElem != null) {
+          if (document.exitFullscreen) {
+            document.exitFullscreen();
+          } else if (document.webkitExitFullscreen) {
+            /* Safari */
+            document.webkitExitFullscreen();
+          } else if (document.msExitFullscreen) {
+            /* IE11 */
+            document.msExitFullscreen();
+          }
+        } else {
+          if (targetelement.requestFullscreen) {
+            targetelement.requestFullscreen();
+          }
+          if (targetelement.webkitRequestFullscreen) {
+            targetelement.webkitRequestFullscreen();
+          }
+          if (targetelement.mozRequestFullScreen) {
+            targetelement.mozRequestFullScreen();
+          }
+          if (targetelement.msRequestFullscreen) {
+            targetelement.msRequestFullscreen();
+          }
+        }
+      }
+
+
+    function addFullScreen(obj){
+       $(obj).on("click",function(){
+         toggleFull(obj);
+       });
+    }
+
+
     /*   Add Zoom  */
 
     function addZoom(obj)
@@ -60,6 +98,13 @@ $(function () {
         addZoom(this);
     })
         
+    $(".zoom img").each(function () {
+        addFullScreen(this);
+    })
+
 
     zoom();
+
+
+
 });
