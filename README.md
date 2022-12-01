@@ -1,1 +1,1 @@
-# ArchiMate
+# ArchiMate Cheat Sheet
