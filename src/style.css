@@ -279,3 +279,24 @@ border: 1px solid #000;
     padding: 0px !important;
 }
 
+.vis-main {
+    background-color: var(--colBase);
+    color: var(--colLight);
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+}
+
+.vis-main a:link ,
+.vis-main a:visited, 
+.vis-main a:active 
+{
+    color: var(--colBright);
+}
+
+.vis-main a:hover 
+{
+    color: var(--colBase);
+    background-color: var(--colBright);
+}
