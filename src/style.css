@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+
 
 /* === Set colors === */
 
@@ -13,6 +17,22 @@
     --colDialog: #ECF9F6;
 
    }
+ 
+.signatureGB {
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+a.signatureGB:link , a.signatureGB:link ,a.signatureGB:active, a.signatureGB:hover  {
+    text-decoration: none;
+}
+
+
+a.signatureGB:hover  {
+    text-shadow: 2px 2px 4px #777;
+}
+
 
 
 body {
@@ -20,6 +40,7 @@ body {
   /*  height: 100vh;*/
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -55,70 +76,61 @@ body {
   }
   
 
+
  #motivationLayer {
-    color: #eff0fe;
+    color:   #ccccff;
     text-shadow: 0px 0px 4px black;
 }
 
 #motivationLayerContent{
-    background-color:  #eff0fe;
+    background-color:  #ccccff;
 }
 
 #stratLayer {
-    color: #F8E8C1;
+    color: #f5deaa;
     text-shadow: 0px 0px 4px black;
 }
 
 #stratLayerContent{
-    background-color:  #F8E8C1;
+    background-color:  #f5deaa
 }
 
 #bLayer {
     text-shadow: 0px 0px 4px black;
-    color: #FFFFCD;
+    color: #ffffaf;
 }
 
 #bLayerContent {
-    background-color: #FFFFCD;
+    background-color: #ffffaf;
 }
 
 
 #appLayer {
     text-shadow: 0px 0px 4px black;
-    color: #C3F0FF;
+    color: #afffff;
 }
 
 #appLayerContent {
-    background-color: #ddF5FD;
+    background-color: #afffff;
 }
 
-#techLayer {
+#techLayer, #phyLayer  {
     text-shadow: 0px 0px 4px black;
-    color: #CAFFCA;
+    color: #afffaf;
 }
 
-#techLayerContent {
-    background-color: #E7FEE7;
-}
-
-#phyLayer {
-    text-shadow: 0px 0px 4px black;
-    color: #98FF98;
-}
-
-
-#phyLayerContent {
-    background-color: #CFFCCF;
+#techLayerContent, #phyLayerContent  {
+    background-color: #afffaf;
 }
 
 
 #impLayer {
     text-shadow: 0px 0px 4px black;
-    color: #FFE1E1;
+    color: #ffe0e0;
 }
 
 #impLayerContent {
-    background-color: #FFE1E1;
+    background-color: #ffe0e0;
 }
 
 /*  === Elements inside the layer === */
@@ -151,6 +163,12 @@ body {
 h1, h2, h3, h4 {
     font-family:  'Oswald', sans-serif;
 }
+
+h1 {
+    margin: 0px;
+    padding-left: 5px;
+}
+
 
 h3 {
     margin:  0px 0px 10px 10px;
@@ -225,7 +243,7 @@ border: 1px solid #000;
       text-align: center;
       position: absolute;
       right:30px;
-      top: 30px;
+      top: 7px;
       z-index: 1;
       font-size: 30px;
   }
@@ -237,14 +255,20 @@ border: 1px solid #000;
 }
 
 /* For Zoom Image */
-
-.container{ height: 600px;  max-width: 800px; width: 800px; }
-
+/*.container{ height: 600px;  max-width: 800px; width: 800px; }
+*/
+.container{ height: 80vh;  max-width: 80vm; width: 80vm; }
+/*
 
 /*
+.container{ height: 875px;  max-width: 875px; width: 875px; }
+*/
+
 .container .zoom{ background-color: #DDD; height: 100%; margin: auto; overflow: hidden; position: relative; width: 100%; }
 */
-.container .zoom{  height: 100%; margin: auto; overflow: hidden; position: relative; width: 100%; }
+.container .zoom{  
+    height: 100%; 
+    margin: auto; overflow: hidden; position: relative; width: 100%; }
 
 .container .zoom img{ bottom: 0; display: block; left: 0; margin: 0px; max-height: 100%; max-width: 100%; position: absolute; right: 0; top: 0;
   -moz-transform-style: preserve-3d;
@@ -299,4 +323,76 @@ border: 1px solid #000;
 {
     color: var(--colBase);
     background-color: var(--colBright);
+}
+
+
+.ui-tabs-vertical { width: 68em }
+.ui-tabs-vertical > .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 7em; }
+.ui-tabs-vertical > .ui-tabs-nav li 
+    { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; 
+      font-size: 10pt;
+    }
+.ui-tabs-vertical > .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical > .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical > .ui-tabs-panel { 
+    padding: 1em;
+    float: left;
+    width: calc(100% - 8em);
+}
+
+/* Better menu selection highlight */
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #212121;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #777;
+}
+
+
+/* Tab menu styles */
+
+#tIntro, #tMeta , #tAbout {
+    background: #ccd4d4;
+}
+
+#tMotiv {
+    background: #ccccff;
+}
+
+#tStrat {
+    background: #f5deaa;
+}
+
+#tBusi {
+    background: #ffffaf;
+}
+
+#tApp {
+    background: #afffff;
+}
+
+#tTech , #tPhy {
+    background: #afffaf;
+}
+
+#tImp {
+    background: #ffe0e0;
+}
+
+.gbContent {
+    padding: 10px 10px 10px 10px;
+    background-color: #ccd4d4;;
+}
+
+#layers {
+ width: 100%;
+}
+
+#layers.ui-widget-content {
+    background: inherit;
+}
+
+
+.gbTabs {
+    width: calc(100% - 4em);
 }
