@@ -14,9 +14,9 @@
     <script src="lib/zoom-by-ironex.min.js"></script>
     <script src="app.js" />
     </script>
-<script>
+    <script>
 
-</script>
+    </script>
 
 </head>
 
@@ -85,7 +85,8 @@
                         <br>
                         Triggering
                     </td>
-                    <td><img src="images/relFlow.png" title="Flow to: Represents transfer from one element to another. The flow relationship is used to model the flow of, for example, information, goods, or money between behavior elements. A flow relationship does not imply a causal relationship.">
+                    <td><img src="images/relFlow.png"
+                            title="Flow to: Represents transfer from one element to another. The flow relationship is used to model the flow of, for example, information, goods, or money between behavior elements. A flow relationship does not imply a causal relationship.">
                         <br>
                         Flow
                     </td>
@@ -107,60 +108,91 @@
 
     <h1 class="mainTitle">ArchiMate 3 Cheat Sheet</h1>
     <div class="gbHelp">?</div>
+
+
     <div id="layers">
+        <!-- Vertical Tabs titles-->
+        <ul>
+            <li id="tIntro"><a href="#introContent">Introduction</a></li>
+            <li id="tMeta"><a href="#metaContent">Metamodel</a></li>
+            <li id="tMotiv"><a href="#motivationLayerContent">Motivation</a></li>
+            <li id="tStrat"><a href="#stratLayerContent">Strategy</a></li>
+            <li id="tBusi"><a href="#bLayerContent">Business Layer</a></li>
+            <li id="tApp"><a href="#appLayerContent">Application Layer</a></li>
+            <li id="tTech"><a href="#techLayerContent">Technology Layer</a></li>
+            <li id="tPhy"><a href="#phyLayerContent">Physical Layer</a></li>
+            <li id="tImp"><a href="#impLayerContent">Implementation<br>and Migration</a></li>
+            <li id="tAbout"><a href="#aboutContent">About A3CC</a></li>
+        </ul>
+
+
 
         <!-- === INTRODUCTION -->
 
-        <h2 id="introHeader">Introduction</h2>
-        <div>
-            <img src="images/allLayers.png" class="arcBigDiagram">
-            <br>This cheat sheet is a brief overview of the Archimate Standard for Architecture.<br>Please refer to the <a href="https://pubs.opengroup.org/architecture/archimate3-doc/toc.html" target="openGroup">Official Archimate 3 Reference  from the Open Group</a> for more information and detail.
+        <div id="introContent" class="gbContent">
+            This cheat sheet is a brief overview of the Archimate Standard for Architecture.<br>Please refer to the <a
+                href="https://pubs.opengroup.org/architecture/archimate32-doc/" target="openGroup">Official Archimate 3
+                Reference from the Open Group</a> for more information and detail.
+            <br>
+            On all the examples, you can use the mouse weel to zomm in/zoom out.
             <br><br>
-            On all the examples, you can use your mouse weel to zomm in/zoom out.
+            Enjoy.
+            <br><br>
+            <a class="signatureGB" href="https://www.linkedin.com/in/guybruneau1964" target="linkedin">Guy Bruneau</a>
+            <br>
+            <img src="images/allLayers.png" class="arcBigDiagram"><br>
+            The ArchiMate Full Framework
         </div>
 
-
-        <h2 id="introHeader">Metamodel</h2>
-        <div>
-            <img src="images/metamodel.png" class="arcBigDiagram">
+        <div id="metaContent" class="gbContent">
+            <img src="images/metamodel.png" class="arcBigDiagram"><br>
+            Overview of the metamodel
         </div>
 
-        <!-- === MOTIVATION ===-->    
+        <!-- === MOTIVATION ===-->
 
-        <h2 id="motivationLayer">Motivation</h2>
         <div id="motivationLayerContent">
             <table class="layerTable">
                 <thead>
                     <tr>
                         <th scope="col">Section</th>
                         <th scope="col">Icon</th>
-                        <th scope="col">Examples</th>
+                        <th scope="col">Motivation Aspect Examples</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td colspan="1" rowspan="1">Elements</td>
                         <td>
-                            <img src="images/mStakeholder.png" class="arcElem" title="Stakeholder: Represents the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture.">
-                        <br>
-                        <img src="images/mDriver.png" class="arcElem" title="Driver: Represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them.">
-                        <br>                      
-                        <img src="images/mAssesment.png" class="arcElem" title="Assessment: Represents the result of an analysis of the state of affairs of the enterprise with respect to some driver.">
-                        <br>  
-                        <img src="images/mGoal.png" class="arcElem" title="Goal: Represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.">
-                        <br>  
-                        <img src="images/mOutcome.png" class="arcElem" title="Outcome: Represents an end result.">
-                        <br>  
-                        <img src="images/mPrinciple.png" class="arcElem" title="Principle: Represents a statement of intent defining a general property that applies to any system in a certain context in the architecture..">
-                        <br>  
-                        <img src="images/mRequirement.png" class="arcElem" title="Requirement: Represents a statement of need defining a property that applies to a specific system as described by the architecture.">
-                        <br>  
-                        <img src="images/mConstraint.png" class="arcElem" title="Constraint: Represents a factor that limits the realization of goals.">
-                        <br>  
-                        <img src="images/mMeaning.png" class="arcElem" title="Meaning: Represents the knowledge or expertise present in, or the interpretation given to, a concept in a particular context.">
-                        <br>  
-                        <img src="images/mValue.png" class="arcElem" title="Value: Represents the relative worth, utility, or importance of a concept.">
-                        <br>  
+                            <img src="images/mStakeholder.png" class="arcElem"
+                                title="Stakeholder: Represents the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture.">
+                            <br>
+                            <img src="images/mDriver.png" class="arcElem"
+                                title="Driver: Represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them.">
+                            <br>
+                            <img src="images/mAssesment.png" class="arcElem"
+                                title="Assessment: Represents the result of an analysis of the state of affairs of the enterprise with respect to some driver.">
+                            <br>
+                            <img src="images/mGoal.png" class="arcElem"
+                                title="Goal: Represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.">
+                            <br>
+                            <img src="images/mOutcome.png" class="arcElem" title="Outcome: Represents an end result.">
+                            <br>
+                            <img src="images/mPrinciple.png" class="arcElem"
+                                title="Principle: Represents a statement of intent defining a general property that applies to any system in a certain context in the architecture..">
+                            <br>
+                            <img src="images/mRequirement.png" class="arcElem"
+                                title="Requirement: Represents a statement of need defining a property that applies to a specific system as described by the architecture.">
+                            <br>
+                            <img src="images/mConstraint.png" class="arcElem"
+                                title="Constraint: Represents a factor that limits the realization of goals.">
+                            <br>
+                            <img src="images/mMeaning.png" class="arcElem"
+                                title="Meaning: Represents the knowledge or expertise present in, or the interpretation given to, a concept in a particular context.">
+                            <br>
+                            <img src="images/mValue.png" class="arcElem"
+                                title="Value: Represents the relative worth, utility, or importance of a concept.">
+                            <br>
                         </td>
                         <td colspan="1" rowspan="0">
                             <div class="gbTabs">
@@ -170,7 +202,7 @@
                                     <li><a href="#mExample3">3</a></li>
                                 </ul>
                                 <div id="mExample1">
-                                    <h3>Stakeholder, Driver, and Assessment</h3> 
+                                    <h3>Stakeholder, Driver, and Assessment</h3>
                                     <img src="images/mExample1.png" class="arcExample">
                                 </div>
                                 <div id="mExample2">
@@ -184,22 +216,20 @@
                             </div>
                         </td>
                     </tr>
-  
+
                 </tbody>
             </table>
         </div>
 
 
         <!-- === STRATEGY  ===-->
-
-        <h2 id="stratLayer">Strategy Layer</h2>
         <div id="stratLayerContent">
             <table class="layerTable">
                 <thead>
                     <tr>
                         <th scope="col">Section</th>
                         <th scope="col">Icon</th>
-                        <th scope="col">Examples</th>
+                        <th scope="col">Strategy Layer Examples</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -246,309 +276,345 @@
 
         </div>
 
-    <!-- === Busines === -->    
-    <h2 id="bLayer">Business Layer</h2>
-    <div id="bLayerContent">
-        
-        <table class="layerTable">
-            <thead>
-                <tr>
-                    <th scope="col">Section</th>
-                    <th scope="col">Icon</th>
-                    <th scope="col">Examples</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="1" rowspan="1">Active<br>Structure</td>
-                    <td>
-                        <img src="images/bActor.png" class="arcElem" title="Business Actor: Represents a business entity that is capable of performing behavior.">
-                        <br>
-                        <img src="images/bRole.png" class="arcElem" title="Business Role: Represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular action or event.">
-                        <br>
-                        <img src="images/bColl.png" class="arcElem" title="Business Collaboration: Represents an aggregate of two or more business internal active structure elements that work together to perform collective behavior.">
-                        <br>
-                        <img src="images/bInterface.png" class="arcElem" title="Business interface: Represents a point of access where a business service is made available to the environment.">
-                    </td>
-                    <td colspan="1" rowspan="0">
-                        <div class="gbTabs">
-                            <ul>
-                                <li><a href="#bExample1">1</a></li>
-                                <li><a href="#bExample2">2</a></li>
-                                <li><a href="#bExample3">3</a></li>
-                                <li><a href="#bExample4">4</a></li>
-                            </ul>
-                            <div id="bExample1">
-                                <h3>Business Active Structure Elements</h3>
-                                <img src="images/bExample1.png" class="arcExample">
-                            </div>
-                            <div id="bExample2">
-                                <h3>Business Behavior Elements</h3>
-                                <img src="images/bExample2.png" class="arcExample">
-                            </div>
-                            <div id="bExample3">
-                                <h3>Business Passive Structure Elements</h3>
-                                <img src="images/bExample3.png" class="arcExample">
-                            </div>
-                            <div id="bExample4">
-                                <h3>Business Composite Element: Product</h3>
-                                <img src="images/bExample4.png" class="arcExample">
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="1" rowspan="1">Behavior<br>Element</td>
-                    <td>
-                        <img src="images/bProcess.png" class="arcElem" title="Business Process: Represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services.">
-                        <br>
-                        <img src="images/bFunction.png" class="arcElem" title="Business Function: Represents a collection of business behavior based on a chosen set of criteria (typically required business resources and/or competencies), closely aligned to an organization, but not necessarily explicitly governed by the organization.">
-                        <br>
-                        <img src="images/bInterraction.png" class="arcElem" title="Business Interaction: Represents a unit of collective business behavior performed by (a collaboration of) two or more business actors, business roles, or business collaborations.">
-                        <br>
-                        <img src="images/bEvent.png" class="arcElem" title="Business Event: Represents an organizational state change.">
-                        <br>
-                        <img src="images/bService.png" class="arcElem" title="Business Service: Represents explicitly defined behavior that a business role, business actor, or business collaboration exposes to its environment.">
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
-                    <td>
-                        <img src="images/bObject.png" class="arcElem" title="Business Object: Represents a concept used within a particular business domain.">
-                        <br>
-                        <img src="images/bContract.png" class="arcElem" title="Contract: Represents a formal or informal specification of an agreement between a provider and a consumer that specifies the rights and obligations associated with a product and establishes functional and non-functional parameters for interaction.">
-                        <br>
-                        <img src="images/bRepresentation.png" class="arcElem" title="Representation: Represents a perceptible form of the information carried by a business object.">
-                    </td>
-                </tr>
+        <!-- === Busines === -->
+        <div id="bLayerContent">
 
-                <tr>
-                    <td colspan="1" rowspan="1">Composite<br>Element</td>
-                    <td>
-                        <img src="images/bProduct.png" class="arcElem" title="Product: Represents a coherent collection of services and/or passive structure elements, accompanied by a contract/set of agreements, which is offered as a whole to (internal or external) customers.">
-                    </td>
-                </tr>
+            <table class="layerTable">
+                <thead>
+                    <tr>
+                        <th scope="col">Section</th>
+                        <th scope="col">Icon</th>
+                        <th scope="col">Business Layer Examples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="1" rowspan="1">Active<br>Structure</td>
+                        <td>
+                            <img src="images/bActor.png" class="arcElem"
+                                title="Business Actor: Represents a business entity that is capable of performing behavior.">
+                            <br>
+                            <img src="images/bRole.png" class="arcElem"
+                                title="Business Role: Represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular action or event.">
+                            <br>
+                            <img src="images/bColl.png" class="arcElem"
+                                title="Business Collaboration: Represents an aggregate of two or more business internal active structure elements that work together to perform collective behavior.">
+                            <br>
+                            <img src="images/bInterface.png" class="arcElem"
+                                title="Business interface: Represents a point of access where a business service is made available to the environment.">
+                        </td>
+                        <td colspan="1" rowspan="0">
+                            <div class="gbTabs">
+                                <ul>
+                                    <li><a href="#bExample1">1</a></li>
+                                    <li><a href="#bExample2">2</a></li>
+                                    <li><a href="#bExample3">3</a></li>
+                                    <li><a href="#bExample4">4</a></li>
+                                </ul>
+                                <div id="bExample1">
+                                    <h3>Business Active Structure Elements</h3>
+                                    <img src="images/bExample1.png" class="arcExample">
+                                </div>
+                                <div id="bExample2">
+                                    <h3>Business Behavior Elements</h3>
+                                    <img src="images/bExample2.png" class="arcExample">
+                                </div>
+                                <div id="bExample3">
+                                    <h3>Business Passive Structure Elements</h3>
+                                    <img src="images/bExample3.png" class="arcExample">
+                                </div>
+                                <div id="bExample4">
+                                    <h3>Business Composite Element: Product</h3>
+                                    <img src="images/bExample4.png" class="arcExample">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" rowspan="1">Behavior<br>Element</td>
+                        <td>
+                            <img src="images/bProcess.png" class="arcElem"
+                                title="Business Process: Represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services.">
+                            <br>
+                            <img src="images/bFunction.png" class="arcElem"
+                                title="Business Function: Represents a collection of business behavior based on a chosen set of criteria (typically required business resources and/or competencies), closely aligned to an organization, but not necessarily explicitly governed by the organization.">
+                            <br>
+                            <img src="images/bInterraction.png" class="arcElem"
+                                title="Business Interaction: Represents a unit of collective business behavior performed by (a collaboration of) two or more business actors, business roles, or business collaborations.">
+                            <br>
+                            <img src="images/bEvent.png" class="arcElem"
+                                title="Business Event: Represents an organizational state change.">
+                            <br>
+                            <img src="images/bService.png" class="arcElem"
+                                title="Business Service: Represents explicitly defined behavior that a business role, business actor, or business collaboration exposes to its environment.">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
+                        <td>
+                            <img src="images/bObject.png" class="arcElem"
+                                title="Business Object: Represents a concept used within a particular business domain.">
+                            <br>
+                            <img src="images/bContract.png" class="arcElem"
+                                title="Contract: Represents a formal or informal specification of an agreement between a provider and a consumer that specifies the rights and obligations associated with a product and establishes functional and non-functional parameters for interaction.">
+                            <br>
+                            <img src="images/bRepresentation.png" class="arcElem"
+                                title="Representation: Represents a perceptible form of the information carried by a business object.">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="1" rowspan="1">Composite<br>Element</td>
+                        <td>
+                            <img src="images/bProduct.png" class="arcElem"
+                                title="Product: Represents a coherent collection of services and/or passive structure elements, accompanied by a contract/set of agreements, which is offered as a whole to (internal or external) customers.">
+                        </td>
+                    </tr>
 
 
-            </tbody>
+                </tbody>
+            </table>
+
+        </div>
+
+
+        <!-- === APPLICATION ===-->
+        <div id="appLayerContent">
+            <table class="layerTable">
+                <thead>
+                    <tr>
+                        <th scope="col">Section</th>
+                        <th scope="col">Icon</th>
+                        <th scope="col">Application Layer Examples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="1" rowspan="1">Active<br>Structure</td>
+                        <td>
+                            <img src="images/appComponent.png" class="arcElem"
+                                title="Component: Represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.">
+                            <br>
+                            <img src="images/appColl.png" class="arcElem"
+                                title="Collaboration: Represents an aggregate of two or more application internal active structure elements that work together to perform collective application behavior.">
+                            <br>
+                            <img src="images/appInterf.png" class="arcElem"
+                                title="Represents a point of access where application services are made available to a user, another application component, or a node.">
+                        </td>
+                        <td colspan="1" rowspan="0">
+                            <div class="gbTabs">
+                                <ul>
+                                    <li><a href="#appExample1">1</a></li>
+                                    <li><a href="#appExample2">2</a></li>
+                                    <li><a href="#appExample3">3</a></li>
+                                </ul>
+                                <div id="appExample1">
+                                    <h3>Application Active Structure Elements</h3>
+                                    <img src="images/appExample1.png" class="arcExample">
+                                </div>
+                                <div id="appExample2">
+                                    <h3>Application Behavior Elements</h3>
+                                    <img src="images/appExample2.png" class="arcExample">
+                                </div>
+                                <div id="appExample3">
+                                    <h3>Application Passive Structure Elements</h3>
+                                    <img src="images/appExample3.png" class="arcExample">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" rowspan="1">Behavior<br>Element</td>
+                        <td>
+                            <img src="images/appFunc.png" class="arcElem"
+                                title="Function: Represents automated behavior that can be performed by an application component.">
+                            <br>
+                            <img src="images/appInteraction.png" class="arcElem"
+                                title="Interraction:  Represents a unit of collective application behavior performed by (a collaboration of) two or more application components.">
+                            <br>
+                            <img src="images/appProcess.png" class="arcElem"
+                                title="Process: Represents a sequence of application behaviors that achieves a specific result.">
+                            <br>
+                            <img src="images/appEvent.png" class="arcElem"
+                                title="Event: Represents an application state change.">
+                            <br>
+                            <img src="images/appService.png" class="arcElem"
+                                title="Service: Represents an explicitly defined exposed application behavior.">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
+                        <td>
+                            <img src="images/appDataObj.png" class="arcElem"
+                                title="Data Object: Represents data structured for automated processing.">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- === TECHNOLOGY === -->
+        <div id="techLayerContent">
+            <table class="layerTable">
+                <thead>
+                    <tr>
+                        <th scope="col">Section</th>
+                        <th scope="col">Icon</th>
+                        <th scope="col">Technology Layer Examples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="1" rowspan="1">Active<br>Structure</td>
+                        <td>
+                            <img src="images/tNode.png" class="arcElem"
+                                title="Node:Represents a computational or physical resource that hosts, manipulates, or interacts with other computational or physical resources.">
+                            <br>
+                            <img src="images/tDevice.png" class="arcElem"
+                                title="Device: Represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.">
+                            <br>
+                            <img src="images/tSoftware.png" class="arcElem"
+                                title="System Software: Represents software that provides or contributes to an environment for storing, executing, and using software or data deployed within it.">
+                            <br>
+                            <img src="images/tColllaboration.png" class="arcElem"
+                                title="Technology Collaboration: Represents an aggregate of two or more technology internal active structure elements that work together to perform collective technology behavior">
+                            <br>
+                            <img src="images/tInterface.png" class="arcElem"
+                                title="Technology Interface: Represents a point of access where technology services offered by a node can be accessed.">
+                            <br>
+                            <img src="images/tPath.png" class="arcElem"
+                                title="Path: Represents a link between two or more nodes, through which these nodes can exchange data, energy, or material.">
+                            <br>
+                            <img src="images/tNetwork.png" class="arcElem"
+                                title="Communication Network: Represents a set of structures that connects nodes for transmission, routing, and reception of data.">
+
+                        </td>
+                        <td colspan="1" rowspan="0">
+                            <div class="gbTabs">
+                                <ul>
+                                    <li><a href="#tExample1">1</a></li>
+                                    <li><a href="#tExample2">2</a></li>
+                                    <li><a href="#tExample3">3</a></li>
+                                </ul>
+                                <div id="tExample1">
+                                    <h3>Technology Active Structure Elements</h3>
+                                    <img src="images/tExample1.png" class="arcExample">
+                                </div>
+                                <div id="tExample2">
+                                    <h3>Technology Behavior Elements</h3>
+                                    <img src="images/tExample2.png" class="arcExample">
+                                </div>
+                                <div id="tExample3">
+                                    <h3>Technology Passive Structure Element: Artifact</h3>
+                                    <img src="images/tExample3.png" class="arcExample">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" rowspan="1">Behavior<br>Element</td>
+                        <td>
+                            <img src="images/tFunction.png" class="arcElem"
+                                title="Technology function: Represents a collection of technology behavior that can be performed by a node.">
+                            <br>
+                            <img src="images/tProcess.png" class="arcElem"
+                                title="Technology process: Represents a sequence of technology behaviors that achieves a specific result.">
+                            <br>
+                            <img src="images/tInterraction.png" class="arcElem"
+                                title="Technology interaction: Represents a unit of collective technology behavior performed by (a collaboration of) two or more nodes.">
+                            <br>
+                            <img src="images/tEvent.png" class="arcElem"
+                                title="Technology even: Represents a technology state change.">
+                            <br>
+                            <img src="images/tService.png" class="arcElem"
+                                title="Technology service: Represents an explicitly defined exposed technology behavior. ">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
+                        <td>
+                            <img src="images/tArtifact.png" class="arcElem"
+                                title="Represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.">
+                            <br>
+                            <img src="images/tObject.png" class="arcElem"
+                                title="Data Object: Represents a data structure.">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div id="phyLayerContent">
+            <table class="layerTable">
+                <thead>
+                    <tr>
+                        <th scope="col">Section</th>
+                        <th scope="col">Icon</th>
+                        <th scope="col">Physical Layer Examples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="1" rowspan="1">Active<br>Structure</td>
+                        <td>
+                            <img src="images/phyEquipment.png" class="arcElem"
+                                title="Equipment: Represents one or more physical machines, tools, or instruments that can create, use, store, move, or transform materials.">
+                            <br>
+                            <img src="images/phyFacility.png" class="arcElem"
+                                title="Facility: Represents a physical structure or environment.">
+                            <br>
+                            <img src="images/phyDistNetwork.png" class="arcElem"
+                                title="Distribution network: Represents a physical network used to transport materials or energy.">
+                            <br>
+                        </td>
+                        <td colspan="1" rowspan="0">
+                            <div class="gbTabs">
+                                <ul>
+                                    <li><a href="#phyExample1">1</a></li>
+                                </ul>
+                                <div id="xExample1">
+                                    <h3> Physical Elements</h3>
+                                    <img src="images/phyExample.png" class="arcExample">
+                                </div>
+                            </div>
+        </div>
+        </td>
+        </tr>
+        <tr>
+            <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
+            <td>
+                <img src="images/phyMaterial.png" class="arcElem"
+                    title="Material: Represents tangible physical matter or energy.">
+            </td>
+        </tr>
+        </tbody>
         </table>
 
     </div>
-
-
-    <!-- === APPLICATION ===-->
-    <h2 id="appLayer">Application Layer</h2>
-    <div id="appLayerContent">
+    <div id="impLayerContent">
         <table class="layerTable">
             <thead>
                 <tr>
                     <th scope="col">Section</th>
                     <th scope="col">Icon</th>
-                    <th scope="col">Examples</th>
+                    <th scope="col">Implementation and Migration Layer Examples</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td colspan="1" rowspan="1">Active<br>Structure</td>
                     <td>
-                        <img src="images/appComponent.png" class="arcElem" title="Component: Represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.">
-                        <br>
-                        <img src="images/appColl.png" class="arcElem" title="Collaboration: Represents an aggregate of two or more application internal active structure elements that work together to perform collective application behavior.">
-                        <br>
-                        <img src="images/appInterf.png" class="arcElem" title="Represents a point of access where application services are made available to a user, another application component, or a node.">
-                    </td>
-                    <td colspan="1" rowspan="0">
-                        <div class="gbTabs">
-                            <ul>
-                                <li><a href="#appExample1">1</a></li>
-                                <li><a href="#appExample2">2</a></li>
-                                <li><a href="#appExample3">3</a></li>
-                            </ul>
-                            <div id="appExample1">
-                                <h3>Application Active Structure Elements</h3>
-                                <img src="images/appExample1.png" class="arcExample">
-                            </div>
-                            <div id="appExample2">
-                                <h3>Application Behavior Elements</h3>
-                                <img src="images/appExample2.png" class="arcExample">
-                            </div>
-                            <div id="appExample3">
-                                <h3>Application Passive Structure Elements</h3>
-                                <img src="images/appExample3.png" class="arcExample">
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="1" rowspan="1">Behavior<br>Element</td>
-                    <td>
-                        <img src="images/appFunc.png" class="arcElem" title="Function: Represents automated behavior that can be performed by an application component.">
-                        <br>
-                        <img src="images/appInteraction.png" class="arcElem" title="Interraction:  Represents a unit of collective application behavior performed by (a collaboration of) two or more application components.">                    
-                        <br>
-                        <img src="images/appProcess.png" class="arcElem" title="Process: Represents a sequence of application behaviors that achieves a specific result.">
-                        <br>
-                        <img src="images/appEvent.png" class="arcElem" title="Event: Represents an application state change.">
-                        <br>
-                        <img src="images/appService.png" class="arcElem" title="Service: Represents an explicitly defined exposed application behavior.">
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
-                    <td>
-                        <img src="images/appDataObj.png" class="arcElem" title="Data Object: Represents data structured for automated processing.">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <!-- === TECHNOLOGY === -->
-
-    <h2 id="techLayer">Technology Layer</h2>
-    <div id="techLayerContent" >
-        <table class="layerTable">
-            <thead>
-                <tr>
-                    <th scope="col">Section</th>
-                    <th scope="col">Icon</th>
-                    <th scope="col">Examples</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="1" rowspan="1">Active<br>Structure</td>
-                    <td>
-                        <img src="images/tNode.png" class="arcElem" title="Node:Represents a computational or physical resource that hosts, manipulates, or interacts with other computational or physical resources.">
-                        <br>
-                        <img src="images/tDevice.png" class="arcElem" title="Device: Represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.">
-                        <br>
-                        <img src="images/tSoftware.png" class="arcElem" title="System Software: Represents software that provides or contributes to an environment for storing, executing, and using software or data deployed within it.">
-                        <br>
-                        <img src="images/tColllaboration.png" class="arcElem" title="Technology Collaboration: Represents an aggregate of two or more technology internal active structure elements that work together to perform collective technology behavior">
-                        <br>
-                        <img src="images/tInterface.png" class="arcElem" title="Technology Interface: Represents a point of access where technology services offered by a node can be accessed.">
-                        <br>
-                        <img src="images/tPath.png" class="arcElem" title="Path: Represents a link between two or more nodes, through which these nodes can exchange data, energy, or material.">
-                        <br>
-                        <img src="images/tNetwork.png" class="arcElem" title="Communication Network: Represents a set of structures that connects nodes for transmission, routing, and reception of data.">
-                    
-                    </td>
-                    <td colspan="1" rowspan="0">
-                        <div class="gbTabs">
-                            <ul>
-                                <li><a href="#tExample1">1</a></li>
-                                <li><a href="#tExample2">2</a></li>
-                                <li><a href="#tExample3">3</a></li>
-                            </ul>
-                            <div id="tExample1">
-                                <h3>Technology Active Structure Elements</h3>
-                                <img src="images/tExample1.png" class="arcExample">
-                            </div>
-                            <div id="tExample2">
-                                <h3>Technology Behavior Elements</h3>
-                                <img src="images/tExample2.png" class="arcExample">
-                            </div>
-                            <div id="tExample3">
-                                <h3>Technology Passive Structure Element: Artifact</h3>
-                                <img src="images/tExample3.png" class="arcExample">
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="1" rowspan="1">Behavior<br>Element</td>
-                    <td>
-                        <img src="images/tFunction.png" class="arcElem" title="Technology function: Represents a collection of technology behavior that can be performed by a node.">
-                        <br>
-                        <img src="images/tProcess.png" class="arcElem" title="Technology process: Represents a sequence of technology behaviors that achieves a specific result.">
-                        <br>
-                        <img src="images/tInterraction.png" class="arcElem" title="Technology interaction: Represents a unit of collective technology behavior performed by (a collaboration of) two or more nodes.">
-                        <br>
-                        <img src="images/tEvent.png" class="arcElem" title="Technology even: Represents a technology state change.">
-                        <br>
-                        <img src="images/tService.png" class="arcElem" title="Technology service: Represents an explicitly defined exposed technology behavior. ">
-                        <br>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
-                    <td>
-                        <img src="images/tArtifact.png" class="arcElem" title="Represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.">
-                        <br>
-                        <img src="images/tObject.png" class="arcElem" title="Data Object: Represents a data structure.">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-    </div>
-
-
-    <h2 id="phyLayer">Physical Layer</h2>
-    <div id="phyLayerContent">
-        <table class="layerTable">
-            <thead>
-                <tr>
-                    <th scope="col">Section</th>
-                    <th scope="col">Icon</th>
-                    <th scope="col">Examples</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="1" rowspan="1">Active<br>Structure</td>
-                    <td>
-                        <img src="images/phyEquipment.png" class="arcElem" title="Equipment: Represents one or more physical machines, tools, or instruments that can create, use, store, move, or transform materials.">
-                        <br>
-                        <img src="images/phyFacility.png" class="arcElem" title="Facility: Represents a physical structure or environment.">
-                        <br>
-                        <img src="images/phyDistNetwork.png" class="arcElem" title="Distribution network: Represents a physical network used to transport materials or energy.">
-                        <br>
-                    </td>
-                    <td colspan="1" rowspan="0">
-                        <div class="gbTabs">
-                            <ul>
-                                <li><a href="#phyExample1">1</a></li>
-                            </ul>
-                            <div id="xExample1">
-                                <h3> Physical Elements</h3>
-                                <img src="images/phyExample.png" class="arcExample">
-                            </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="1" rowspan="1">Passive<br>Structure<br>Element</td>
-                    <td>
-                        <img src="images/phyMaterial.png" class="arcElem" title="Material: Represents tangible physical matter or energy.">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-    </div>
-
-    <h2 id="impLayer">Implementation & Migration</h2>
-    <div id="impLayerContent" >
-        <table class="layerTable">
-            <thead>
-                <tr>
-                    <th scope="col">Section</th>
-                    <th scope="col">Icon</th>
-                    <th scope="col">Examples</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="1" rowspan="1">Active<br>Structure</td>
-                    <td>
-                        <img src="images/impWorkPak.png" class="arcElem" title="Work package: Represents a series of actions identified and designed to achieve specific results within specified time and resource constraints.">
-                        <img src="images/impDeliverable.png" class="arcElem" title="Deliverable: Represents a precisely-defined result of a work package.">
-                        <img src="images/impEvent.png" class="arcElem" title="Implementation event: Represents a state change related to implementation or migration.">
-                        <img src="images/impPlateau.png" class="arcElem" title="Plateau: Represents a relatively stable state of the architecture that exists during a limited period of time.">
-                        <img src="images/impGap.png" class="arcElem" title="Gap: Represents a statement of difference between two plateaus.">
+                        <img src="images/impWorkPak.png" class="arcElem"
+                            title="Work package: Represents a series of actions identified and designed to achieve specific results within specified time and resource constraints.">
+                        <img src="images/impDeliverable.png" class="arcElem"
+                            title="Deliverable: Represents a precisely-defined result of a work package.">
+                        <img src="images/impEvent.png" class="arcElem"
+                            title="Implementation event: Represents a state change related to implementation or migration.">
+                        <img src="images/impPlateau.png" class="arcElem"
+                            title="Plateau: Represents a relatively stable state of the architecture that exists during a limited period of time.">
+                        <img src="images/impGap.png" class="arcElem"
+                            title="Gap: Represents a statement of difference between two plateaus.">
                     </td>
                     <td colspan="1" rowspan="0">
                         <div class="gbTabs">
@@ -566,15 +632,27 @@
         </table>
     </div>
 
+    <div id="aboutContent">
+        <div class="gbContent">
+            <h3>Archimate Cheat Sheet V1.1</h3>
+            <br>What's new
+            <br>&bull; Improved navigation
+            <br>
+            <br>TODO
+            <br>&bull; Archimate 3.1 &#8594; Archimate 3.2
+            <br>&bull; Common Viewpoints
+            <h3>Guy Bruneau</h3>
+            Solution Architect<br>
+            <a href="https://www.linkedin.com/in/guybruneau1964" target="linkedin">Linkedin</a>&nbsp;&bull;&nbsp;
+            <a href="https://gbruneau.github.io/" target="github">GitHub</a><br>
+            <br>
+            <a href="https://pubs.opengroup.org/architecture/archimate32-doc/" target="openGroup">Official Archimate 3.2
+                Reference from the Open Group. </a>
+        </div>
     </div>
-<div class="vis-main">
-    <h3>Guy Bruneau</h3>
-    Solution Architect<br>
-    <a href="https://www.linkedin.com/in/guybruneau1964" target="linkedin">Linkedin</a>&nbsp;&bull;&nbsp;
-    <a href="https://gbruneau.github.io/" target="github">GitHub</a><br>
-    <br>
-    <a href="https://pubs.opengroup.org/architecture/archimate32-doc/" target="openGroup">Official Archimate 3.2 Reference  from the Open Group. </a>   
-</div>
+
+
+    </div>
 </body>
 
 </html>
