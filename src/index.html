@@ -101,19 +101,19 @@
 
     <!-- === Main Layout === -->
 
-    <h1 class="mainTitle"  data-t9n="maintitle" >ArchiMate 3 Cheat Sheet</h1>    
+    <h1 class="mainTitle" data-t9n="maintitle">ArchiMate 3 Cheat Sheet</h1>
     <div class="gbLang">
-        <label for="langSelector"  data-t9n="sellang">Select Language: </label>
+        <label for="langSelector" data-t9n="sellang">Select Language: </label>
         <select id="langSelector"></select>
-      </div>
+    </div>
     <div class="gbHelp">?</div>
 
 
     <div id="layers">
         <!-- Vertical Tabs titles-->
         <ul>
-            <li id="tIntro"><a href="#introContent"  data-t9n="intro">Introduction</a></li>
-            <li id="tMeta"><a href="#metaContent">Metamodel</a></li>
+            <li id="tIntro"><a href="#introContent" data-t9n="intro">Introduction</a></li>
+            <li id="tMeta"><a href="#metaContent" data-t9n="meta">Metamodel</a></li>
             <li id="tMotiv"><a href="#motivationLayerContent">Motivation</a></li>
             <li id="tStrat"><a href="#stratLayerContent">Strategy</a></li>
             <li id="tBusi"><a href="#bLayerContent">Business Layer</a></li>
@@ -124,28 +124,19 @@
             <li id="tAbout"><a href="#aboutContent">About A3CC</a></li>
         </ul>
 
-
-
         <!-- === INTRODUCTION -->
 
         <div id="introContent" class="gbContent">
-            This cheat sheet is a brief overview of the Archimate Standard for Architecture.<br>Please refer to the <a
-                href="https://pubs.opengroup.org/architecture/archimate32-doc/" target="openGroup">Official Archimate 3
-                Reference from the Open Group</a> for more information and detail.
-            <br>
-            On all the examples, you can use the mouse weel to zomm in/zoom out.
-            <br><br>
-            Enjoy.
-            <br><br>
-            <a class="signatureGB" href="https://www.linkedin.com/in/guybruneau1964" target="linkedin">Guy Bruneau</a>
-            <br>
-            <img src="images/allLayers.png" class="arcBigDiagram"><br>
-            The ArchiMate Full Framework
+            <span data-t9n="intros1">This cheat sheet is a brief overview of the Archimate Standard for Architecture.</span><br><span data-t9n="intros2">Please refer to the </span><a
+                href="https://pubs.opengroup.org/architecture/archimate32-doc/" target="openGroup" data-t9n="intros3">Official Archimate 3 Reference from the Open Group</a> <span data-t9n="intros4">for more information and detail.</span><br><span data-t9n="intros5">On all the examples, you can use the mouse weel to zomm in/zoom out.</span><br><br> <span data-t9n="intros6">Enjoy.</span><br>
+            <br><a class="signatureGB" href="https://www.linkedin.com/in/guybruneau1964" target="linkedin">Guy Bruneau</a><br>
+            <img src="images/allLayers.png" class="arcBigDiagram"><br><span data-t9n="intros7">The ArchiMate Full Framework</span>
         </div>
 
+        <!-- === Metamodel ===-->
+
         <div id="metaContent" class="gbContent">
-            <img src="images/metamodel.png" class="arcBigDiagram"><br>
-            Overview of the metamodel
+            <img src="images/metamodel.png" class="arcBigDiagram"><br><span data-t9n="metas1">Overview of the metamodel</span>
         </div>
 
         <!-- === MOTIVATION ===-->
@@ -653,5 +644,7 @@
 
     </div>
 </body>
-<script src="app.js" /> </script>
+<script src="app.js" />
+</script>
+
 </html>

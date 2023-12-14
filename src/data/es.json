@@ -1,7 +1,19 @@
 {
     "maintitle": "Hoja de trucos de ArchiMate 3",
-    "intro": "Introducción",
     "sellang" : "Idioma",
+
+    "intro": "Introducción",
+    "intros1": "Esta hoja de referencia es una breve descripción del Estándar Archimate para Arquitectura",
+    "intros2": "Por favor, consulte la",
+    "intros3": "Referencia Oficial Archimate 3 del Open Group",
+    "intros4": "para obtener más información y detalles.",
+    "intros5": "En todos los ejemplos, puede utilizar la rueda del ratón para hacer zoom in/zoom out.",
+    "intros6": "Disfrute.",
+    "intros7": "El Marco Completo de ArchiMate",
+
+    "meta": "Metamodelo",
+    "metas1": "Visión general del metamodelo",
+
     "defstakeholder":"Parte interesada (Stakeholder): representa el papel de un individuo, equipo u organización (o clases de ellos) que representa sus intereses en los efectos de la arquitectura."
   }
   

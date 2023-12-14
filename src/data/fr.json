@@ -1,7 +1,19 @@
 {
     "maintitle": "Aide-mémoire ArchiMate 3",
-    "intro": "Introduction",
     "sellang" : "Langue",
+
+    "intro": "Introduction",
+    "intros1": "Cet aide-mémoire est un bref aperçu de la Norme Archimate pour l'architecture",
+    "intros2": "Veuillez vous référer à la",
+    "intros3": "Référence officielle Archimate 3 de l'Open Group",
+    "intros4": "pour plus d'informations et de détails.",
+    "intros5": "Sur tous les exemples, vous pouvez utiliser la molette de la souris pour zoomer/dézoomer.",
+    "intros6": "Bonne lecture.",
+    "intros7": "Survol du Cadre ArchiMate",
+
+    "meta": "Méta-modèle",
+    "metas1": "Aperçu du méta-modèle",
+
     "defstakeholder" : "Partie prenante (Stakeholder): représente le rôle d'un individu, d'une équipe ou d'une organisation (ou de classes de ceux-ci) qui représente ses intérêts dans les effets de l'architecture."
     
   }

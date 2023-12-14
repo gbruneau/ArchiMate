@@ -1,7 +1,20 @@
 {
     "maintitle": "ArchiMate 3 Cheat Sheet",
-    "intro": "Introduction",
     "sellang" : "Language",
+
+    "intro": "Introduction",
+    "intros1": "This cheat sheet is a brief overview of the Archimate Standard for Architecture",
+    "intros2": "Please refer to the",
+    "intros3": "Official Archimate 3 Reference from the Open Group",
+    "intros4": "for more information and detail.",
+    "intros5": "On all the examples, you can use the mouse wheel to zomm in/zoom out.",
+    "intros6": "Enjoy.",
+    "intros7": "The ArchiMate Full Framewor",
+
+    "meta":"Metamodel",
+    "metas1": "Overview of the metamodel",
+
+
     "defstakeholder" : "Stakeholder: Represents the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture."
     
   }
