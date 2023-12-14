@@ -18,81 +18,72 @@
 <body>
     <!-- === Dialog Box for Relationships === -->
 
-    <div id="diagRef" title="Relationships Reference" class="gbDialog">
+    <div id="diagRef" data-t9n-t="relt" title="Relationships Reference" class="gbDialog">
         <table class="" autofocus>
             <thead>
                 <tr>
-                    <th colspan="2" rowspan="1" scope="col">Structural</th>
-                    <th colspan="2" rowspan="1" scope="col">Dependency</th>
+                    <th colspan="2" rowspan="1" scope="col" data-t9n="relc1">Structural</th>
+                    <th colspan="2" rowspan="1" scope="col" data-t9n="relc2">Dependency</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><img src="images/relCompose.png"
-                            title="Composed of: Represents that an element consists of one or more other concepts.The interpretation of a composition relationship is that the whole or part of the source element is composed of the whole of the target element." /><br />
-                        Composition</td>
-                    <td> <img src="images/relAgregate.png"
-                            title="Aggregates: Represents that an element combines one or more other concepts. The interpretation of an aggregation relationship is that the whole or part of the source element aggregates the whole of the target concept. ">
-                        <br>
-                        Aggregation
+                    <td><img src="images/relCompose.png" data-t9n-t="relt1"
+                            title="Composed of: Represents that an element consists of one or more other concepts.The interpretation of a composition relationship is that the whole or part of the source element is composed of the whole of the target element." /><br /><span data-t9n="relt1n">Composition</span>
+                        </td>
+                    <td> <img src="images/relAgregate.png" data-t9n-t="relt2"
+                            title="Aggregates: Represents that an element combines one or more other concepts. The interpretation of an aggregation relationship is that the whole or part of the source element aggregates the whole of the target concept. "><span data-t9n="relt2n">Aggregation</span>
+                        <br>                        
                     </td>
-                    <td> <img src="images/relServe.png"
+                    <td> <img src="images/relServe.png" data-t9n-t="relt3"
                             title="Serves: Represents that an element provides its functionality to another element. The serving relationship describes how the services or interfaces offered by a behavior or active structure element serve entities in their environment. This relationship is applied for both the behavior aspect and the active structure aspect.">
-                        <br>
-                        Serving
+                        <br><span data-t9n="relt3n">Serving</span>                        
                     </td>
-                    <td><img src="images/relAccess.png"
+                    <td><img src="images/relAccess.png" data-t9n-t="relt4"
                             title="Accesses: Represents the ability of behavior and active structure elements to observe or act upon passive structure elements. The access relationship indicates that a process, function, interaction, service, or event 'does something' with a passive structure element; e.g., create a new object, read data from the object, write or modify the object data, or delete the object.">
-                        <br>
-                        Access
+                        <br><span data-t9n="relt4n">Access</span> 
                     </td>
                 </tr>
                 <tr>
-                    <td><img src="images/relAssigne.png"
+                    <td><img src="images/relAssigne.png"  data-t9n-t="relt5"
                             title="Assigned to: Represents the allocation of responsibility, performance of behavior, storage, or execution. The interpretation of an assignment relationship is that the whole or part of the source element is assigned the whole of the target element. This means that if, for example, two active structure elements are assigned to the same behavior element, either of them can perform the complete behavior. ">
-                        <br>
-                        Assigment
+                        <br><span data-t9n="relt5n">Assigment</span>                         
                     </td>
-                    <td><img src="images/relRealise.png"
+                    <td><img src="images/relRealise.png"  data-t9n-t="relt6"
                             title="Realize: Represents that an entity plays a critical role in the creation, achievement, sustenance, or operation of a more abstract entity. The interpretation of a realization relationship is that the whole or part of the source element realizes the whole of the target element . This means that if, for example, two internal behavior elements have a realization relationship to the same service, either of them can realize the complete service. If both internal behavior elements are needed to realize, the grouping element or an and junction can be used. For weaker types of effects on the realization of a motivation element, the influence relationship should be used.">
-                        <br>
-                        Realization
+                        <br><span data-t9n="relt6n">Realization</span>  
                     </td>
-                    <td><img src="images/relInfluence.png"
+                    <td><img src="images/relInfluence.png" data-t9n-t="relt7"
                             title="Influences: Represents that an element affects the implementation or achievement of some motivation element. The influence relationship is used to describe some architectural elements that influence the achievement or implementation of a motivation element, such as a goal or a principle. In general, a motivation element is realized to a certain degree.">
-                        <br>
+                        <br><span data-t9n="relt7n">Realization</span> 
                         Influence
                     </td>
-                    <td><img src="images/relAssoc.png"
+                    <td><img src="images/relAssoc.png" data-t9n-t="relt8"
                             title="Associated with: Represents an unspecified relationship, or one that is not represented by another ArchiMate relationship. The association relationship can be used when drawing a first high-level model where relationships are initially denoted in a generic way, and later refined to show more specific relationship types. ">
-                        <br>Association
+                        <br><span data-t9n="relt8n">Association</span> 
                     </td>
                 </tr>
 
                 <tr>
-                    <th colspan="2" rowspan="1" scope="col">Dynamic</th>
-                    <th colspan="1" rowspan="1" scope="col">Other</th>
-                    <th colspan="1" rowspan="1" scope="col">Connectors</th>
+                    <th colspan="2" rowspan="1" scope="col" data-t9n="relc3">Dynamic</th>
+                    <th colspan="1" rowspan="1" scope="col" data-t9n="relc4">Other</th>
+                    <th colspan="1" rowspan="1" scope="col" data-t9n="relc5">Connectors</th>
                 </tr>
                 <tr>
-                    <td><img src="images/relSpecialize.jpg"
+                    <td><img src="images/relSpecialize.jpg" data-t9n-t="relt9"
                             title="Triggers: Represents a temporal or causal relationship between elements. The triggering relationship is used to model the temporal or causal precedence of behavior elements in a process. The interpretation of a triggering relationship is that some part of the source element should be completed before the target element can start.">
-                        <br>
-                        Triggering
+                        <br><span data-t9n="relt9n">Triggering</span>                        
                     </td>
-                    <td><img src="images/relFlow.png"
+                    <td><img src="images/relFlow.png" data-t9n-t="relt10"
                             title="Flow to: Represents transfer from one element to another. The flow relationship is used to model the flow of, for example, information, goods, or money between behavior elements. A flow relationship does not imply a causal relationship.">
-                        <br>
-                        Flow
+                        <br><span data-t9n="relt10n">Flow</span>
                     </td>
-                    <td><img src="images/relSpecialize.jpg"
+                    <td><img src="images/relSpecialize.jpg" data-t9n-t="relt11"
                             title="Specializes: Represents that an element is a particular kind of another element.  The semantics of the specialization relationship are that the whole of the generic element is specialized by the specialized element.">
-                        <br>
-                        Specialization
+                        <br><span data-t9n="relt11n">Specialization</span>                        
                     </td>
-                    <td><img src="images/relJunction.png" title="Used to connect relationships of the same type.">
-                        <br>
-                        Junction
+                    <td><img src="images/relJunction.png" data-t9n-t="relt12" title="Used to connect relationships of the same type.">
+                        <br><span data-t9n="relt12n">Junction</span>                        
                     </td>
                 </tr>
             </tbody>
@@ -114,7 +105,7 @@
         <ul>
             <li id="tIntro"><a href="#introContent" data-t9n="intro">Introduction</a></li>
             <li id="tMeta"><a href="#metaContent" data-t9n="meta">Metamodel</a></li>
-            <li id="tMotiv"><a href="#motivationLayerContent">Motivation</a></li>
+            <li id="tMotiv"><a href="#motivationLayerContent" data-t9n="moti">Motivation</a></li>
             <li id="tStrat"><a href="#stratLayerContent">Strategy</a></li>
             <li id="tBusi"><a href="#bLayerContent">Business Layer</a></li>
             <li id="tApp"><a href="#appLayerContent">Application Layer</a></li>
@@ -145,42 +136,42 @@
             <table class="layerTable">
                 <thead>
                     <tr>
-                        <th scope="col">Section</th>
-                        <th scope="col">Icon</th>
-                        <th scope="col">Motivation Aspect Examples</th>
+                        <th scope="col" data-t9n="motic1">Section</th>
+                        <th scope="col" data-t9n="motic2">Icon</th>
+                        <th scope="col" data-t9n="motic3">Motivation Aspect Examples</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td colspan="1" rowspan="1">Elements</td>
+                        <td colspan="1" rowspan="1" data-t9n="motir1">Elements</td>
                         <td>
-                            <img src="images/mStakeholder.png" class="arcElem" data-t9n-t="defstakeholder"
+                            <img src="images/mStakeholder.png" class="arcElem" data-t9n-t="motie1"
                                 title="Stakeholder: Represents the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture.">
                             <br>
-                            <img src="images/mDriver.png" class="arcElem"
+                            <img src="images/mDriver.png" class="arcElem" data-t9n-t="motie2"
                                 title="Driver: Represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them.">
                             <br>
-                            <img src="images/mAssesment.png" class="arcElem"
+                            <img src="images/mAssesment.png" class="arcElem"  data-t9n-t="motie3"
                                 title="Assessment: Represents the result of an analysis of the state of affairs of the enterprise with respect to some driver.">
                             <br>
-                            <img src="images/mGoal.png" class="arcElem"
+                            <img src="images/mGoal.png" class="arcElem" data-t9n-t="motie4" 
                                 title="Goal: Represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.">
                             <br>
-                            <img src="images/mOutcome.png" class="arcElem" title="Outcome: Represents an end result.">
+                            <img src="images/mOutcome.png" class="arcElem"  data-t9n-t="motie5" title="Outcome: Represents an end result.">
                             <br>
-                            <img src="images/mPrinciple.png" class="arcElem"
+                            <img src="images/mPrinciple.png" class="arcElem"  data-t9n-t="motie6"
                                 title="Principle: Represents a statement of intent defining a general property that applies to any system in a certain context in the architecture..">
                             <br>
-                            <img src="images/mRequirement.png" class="arcElem"
+                            <img src="images/mRequirement.png" class="arcElem"  data-t9n-t="motie7"
                                 title="Requirement: Represents a statement of need defining a property that applies to a specific system as described by the architecture.">
                             <br>
-                            <img src="images/mConstraint.png" class="arcElem"
+                            <img src="images/mConstraint.png" class="arcElem"  data-t9n-t="motie8"
                                 title="Constraint: Represents a factor that limits the realization of goals.">
                             <br>
-                            <img src="images/mMeaning.png" class="arcElem"
+                            <img src="images/mMeaning.png" class="arcElem"  data-t9n-t="motie9"
                                 title="Meaning: Represents the knowledge or expertise present in, or the interpretation given to, a concept in a particular context.">
                             <br>
-                            <img src="images/mValue.png" class="arcElem"
+                            <img src="images/mValue.png" class="arcElem"  data-t9n-t="motie10"
                                 title="Value: Represents the relative worth, utility, or importance of a concept.">
                             <br>
                         </td>
@@ -192,15 +183,15 @@
                                     <li><a href="#mExample3">3</a></li>
                                 </ul>
                                 <div id="mExample1">
-                                    <h3>Stakeholder, Driver, and Assessment</h3>
+                                    <h3  data-t9n="motiex1">Stakeholder, Driver, and Assessment</h3>
                                     <img src="images/mExample1.png" class="arcExample">
                                 </div>
                                 <div id="mExample2">
-                                    <h3>Goal, Outcome, Principle, Requirement, and Constraint</h3>
+                                    <h3 data-t9n="motiex2">Goal, Outcome, Principle, Requirement, and Constraint</h3>
                                     <img src="images/mExample2.png" class="arcExample">
                                 </div>
                                 <div id="mExample3">
-                                    <h3>Meaning and Value</h3>
+                                    <h3 data-t9n="motiex3">Meaning and Value</h3>
                                     <img src="images/mExample3.png" class="arcExample">
                                 </div>
                             </div>
