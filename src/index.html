@@ -12,11 +12,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="lib/zoom-by-ironex.min.js"></script>
-    <script src="app.js" />
-    </script>
-    <script>
-
-    </script>
 
 </head>
 
@@ -106,14 +101,18 @@
 
     <!-- === Main Layout === -->
 
-    <h1 class="mainTitle">ArchiMate 3 Cheat Sheet</h1>
+    <h1 class="mainTitle"  data-t9n="maintitle" >ArchiMate 3 Cheat Sheet</h1>    
+    <div class="gbLang">
+        <label for="langSelector"  data-t9n="sellang">Select Language: </label>
+        <select id="langSelector"></select>
+      </div>
     <div class="gbHelp">?</div>
 
 
     <div id="layers">
         <!-- Vertical Tabs titles-->
         <ul>
-            <li id="tIntro"><a href="#introContent">Introduction</a></li>
+            <li id="tIntro"><a href="#introContent"  data-t9n="intro">Introduction</a></li>
             <li id="tMeta"><a href="#metaContent">Metamodel</a></li>
             <li id="tMotiv"><a href="#motivationLayerContent">Motivation</a></li>
             <li id="tStrat"><a href="#stratLayerContent">Strategy</a></li>
@@ -164,7 +163,7 @@
                     <tr>
                         <td colspan="1" rowspan="1">Elements</td>
                         <td>
-                            <img src="images/mStakeholder.png" class="arcElem"
+                            <img src="images/mStakeholder.png" class="arcElem" data-t9n-t="defstakeholder"
                                 title="Stakeholder: Represents the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture.">
                             <br>
                             <img src="images/mDriver.png" class="arcElem"
@@ -634,9 +633,9 @@
 
     <div id="aboutContent">
         <div class="gbContent">
-            <h3>Archimate Cheat Sheet V1.1</h3>
+            <h3>Archimate Cheat Sheet V1.2</h3>
             <br>What's new
-            <br>&bull; Improved navigation
+            <br>&bull; Multiple languages support (English, Français, Español)
             <br>
             <br>TODO
             <br>&bull; Archimate 3.1 &#8594; Archimate 3.2
@@ -654,5 +653,5 @@
 
     </div>
 </body>
-
+<script src="app.js" /> </script>
 </html>

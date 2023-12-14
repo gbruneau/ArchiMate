@@ -247,6 +247,18 @@ border: 1px solid #000;
       z-index: 1;
       font-size: 30px;
   }
+  
+  .gbLang {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    right: 120px;
+    top: 7px;
+    z-index: 1;
+    font-size: 10px;
+}
+
 
 #diagExample img {
     border: var(--colBase);
