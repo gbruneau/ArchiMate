@@ -1,6 +1,7 @@
 {
   "maintitle": "Hoja de trucos de ArchiMate 3",
   "sellang": "Idioma",
+
   "relt": "Referencia de Relaciones",
   "relc1": "Estructural",
   "relc2": "Dependencia",
@@ -31,6 +32,7 @@
   "relt11n": "Especialización",
   "relt12": "Se utiliza para conectar relaciones del mismo tipo.",
   "relt12n": "Conexión",
+
   "intro": "Introducción",
   "intros1": "Esta hoja de referencia es una breve descripción del Estándar Archimate para Arquitectura",
   "intros2": "Por favor, consulte la",
@@ -39,8 +41,10 @@
   "intros5": "En todos los ejemplos, puede utilizar la rueda del ratón para hacer zoom in/zoom out.",
   "intros6": "Disfrute.",
   "intros7": "El Marco Completo de ArchiMate",
+
   "meta": "Metamodelo",
   "metas1": "Visión general del metamodelo",
+
   "moti": "Motivación",
   "motic1": "Sección",
   "motic2": "Ícono",
@@ -67,13 +71,87 @@
   "strar1": "Estructura<br>Activa",
   "strar2": "Elemento<br>de<br>Comportamiento",
   "strar3": "Elemento<br>de<br>Estructura<brPasiva",
+  "strae1": "Capacidad, Recurso y Curso de Acción",
+  "strae2": "Flujo de Valor con Mapeo Cruzado de Capacidades",
+  "strad1": "Recurso (Resource): Representa un activo propiedad o controlado por un individuo u organización.",
+  "strad2": "Capacidad (Capability): Representa una habilidad que posee un elemento de estructura activa, como una organización, persona o sistema.",
+  "strad3": "Curso de acción (Course of action): Representa un enfoque o plan para configurar algunas capacidades y recursos de la empresa, realizado para alcanzar un objetivo.",
+  "strad4": "Ubicación (Location): Representa un lugar físico.",
 
-  
   "busi": "Negocios",
-  
-  "app": "Aplicación",
-  
+  "busic1": "Sección",
+  "busic2": "Ícono",
+  "busic3": "Ejemplos de Capa de Negocio",
+  "busir1": "Estructura<br>Activa",
+  "busir2": "Elemento<br>de<br>Comportamiento",
+  "busir3": "Elemento<br>de<br>Estructura<br>Pasiva",
+  "busir4": "Elemento<br>Compuesto",
+
+  "busie1": "Elementos Activos de la Estructura Empresarial",
+  "busie2": "Elementos de Comportamiento Empresarial",
+  "busie3": "Elementos Pasivos de la Estructura Empresarial",
+  "busie4": "Elemento Compuesto Empresarial: Producto",
+
+  "busia1": "Actor de Negocio (Business Actor): Representa una entidad comercial capaz de realizar un comportamiento.",
+  "busia2": "Rol de Negocio (Business Role): Representa la responsabilidad de realizar un comportamiento específico, a la cual un actor puede ser asignado, o la parte que un actor desempeña en una acción o evento particular.",
+  "busia3": "Colaboración de Negocio (Business Collaboration): Representa un conjunto de dos o más elementos activos internos de negocios que trabajan juntos para llevar a cabo un comportamiento colectivo.",
+  "busia4": "Interfaz de Negocio (Business Interface): Representa un punto de acceso donde un servicio de negocios está disponible para el entorno.",
+
+  "busid1": "Proceso Empresarial: Representa una secuencia de comportamientos empresariales que logra un resultado específico, como un conjunto definido de productos o servicios empresariales.",
+  "busid2": "Función Empresarial: Representa una colección de comportamientos empresariales basada en un conjunto elegido de criterios (típicamente recursos y/o competencias empresariales requeridas), estrechamente alineada con una organización, pero no necesariamente gobernada explícitamente por la organización.",
+  "busid3": "Interacción Empresarial: Representa una unidad de comportamiento empresarial colectivo realizado por (una colaboración de) dos o más actores empresariales, roles empresariales o colaboraciones empresariales.",
+  "busid4": "Evento Empresarial: Representa un cambio de estado organizativo.",
+  "busid5": "Servicio Empresarial: Representa un comportamiento explícitamente definido que un rol empresarial, actor empresarial o colaboración empresarial expone a su entorno.",
+  "busid6": "Objeto Empresarial: Representa un concepto utilizado dentro de un dominio empresarial particular.",
+  "busid7": "Contrato: Representa una especificación formal o informal de un acuerdo entre un proveedor y un consumidor que especifica los derechos y obligaciones asociados con un producto y establece parámetros funcionales y no funcionales para la interacción.",
+  "busid8": "Representación: Representa una forma perceptible de la información llevada por un objeto empresarial.",
+  "busid9": "Producto: Representa una colección coherente de servicios y/o elementos pasivos de estructura, acompañada de un contrato/conjunto de acuerdos, que se ofrece en su totalidad a los clientes (internos o externos).",
+
+   "app": "Aplicación",
+   "appc1": "Sección",
+   "appc2": "Ícono",
+   "appc3": "Ejemplos de Capa de Negocio",
+   "appr1": "Estructura<br>Activa",
+   "appr2": "Elemento<br>de<br>Comportamiento",
+   "appr3": "Elemento<br>de<br>Estructura<br>Pasiva",
+
+   "appe1": "Elementos Activos de la Estructura de Aplicación",
+   "appe2": "Elementos de Comportamiento de Aplicación",
+   "appe3": "Elementos Pasivos de la Estructura de Aplicación",
+   
+   "appd1": "Componente: Representa una encapsulación de la funcionalidad de la aplicación alineada con la estructura de implementación, que es modular y reemplazable.",
+   "appd2": "Colaboración: Representa un conjunto de dos o más elementos activos internos de aplicación que trabajan juntos para realizar un comportamiento colectivo de la aplicación.",
+   "appd3": "Interfaz: Representa un punto de acceso donde los servicios de aplicación están disponibles para un usuario, otro componente de aplicación o un nodo.",
+   "appd4": "Función: Representa un comportamiento automatizado que puede ser realizado por un componente de aplicación.",
+   "appd5": "Interacción: Representa una unidad de comportamiento colectivo de la aplicación realizada por (una colaboración de) dos o más componentes de aplicación.",
+   "appd6": "Proceso: Representa una secuencia de comportamientos de aplicación que logra un resultado específico.",
+   "appd7": "Evento: Representa un cambio de estado de la aplicación.",
+   "appd8": "Servicio: Representa un comportamiento de aplicación expuesto explícitamente definido.",
+   "appd9": "Objeto de Datos: Representa datos estructurados para el procesamiento automatizado.",
+   
   "tech": "Tecnológica",
+  "techc1": "Sección",
+  "techc2": "Ícono",
+  "techc3": "Ejemplos de Capa Tecnológica",
+  "techr1": "Estructura<br>Activa",
+  "techr2": "Elemento<br>de<br>Comportamiento",
+  "techr3": "Elemento<br>de<br>Estructura<br>Pasiva",
+
+  "techd1": "Nodo: Representa un recurso computacional o físico que aloja, manipula o interactúa con otros recursos computacionales o físicos.",
+  "techd2": "Dispositivo: Representa un recurso físico de tecnología en el cual se pueden almacenar o desplegar software del sistema y artefactos para su ejecución.",
+  "techd3": "Software de Sistema: Representa software que proporciona o contribuye a un entorno para almacenar, ejecutar y utilizar software o datos desplegados en él.",
+  "techd4": "Colaboración Tecnológica: Representa un conjunto de dos o más elementos activos internos de tecnología que trabajan juntos para realizar un comportamiento tecnológico colectivo.",
+  "techd5": "Interfaz Tecnológica: Representa un punto de acceso donde se pueden acceder a los servicios tecnológicos ofrecidos por un nodo.",
+  "techd6": "Camino: Representa un enlace entre dos o más nodos, a través del cual estos nodos pueden intercambiar datos, energía o material.",
+  "techd7": "Red de Comunicación: Representa un conjunto de estructuras que conecta nodos para la transmisión, enrutamiento y recepción de datos.",
+  "techd8": "Función Tecnológica: Representa una colección de comportamientos tecnológicos que pueden ser realizados por un nodo.",
+  "techd9": "Proceso Tecnológico: Representa una secuencia de comportamientos tecnológicos que logra un resultado específico.",
+  "techd10": "Interacción Tecnológica: Representa una unidad de comportamiento tecnológico colectivo realizado por (una colaboración de) dos o más nodos.",
+  "techd11": "Evento Tecnológico: Representa un cambio de estado tecnológico.",
+  "techd12": "Servicio Tecnológico: Representa un comportamiento tecnológico expuesto explícitamente definido.",
+  "techd13": "Objeto de Datos: Representa una pieza de datos que se utiliza o se produce en un proceso de desarrollo de software, o mediante el despliegue y operación de un sistema de tecnologías de la información.",
+  "techd14": "Objeto de Datos: Representa una estructura de datos.",
+
   
   "phy": "Física",
   
