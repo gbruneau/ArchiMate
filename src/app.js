@@ -120,7 +120,7 @@ function updateLanguage() {
     $('[data-t9n]').each(function () {
       var key = $(this).data('t9n');
       // Replace content with the translation based on lang
-      $(this).text(t9ntable[key] || ''); // Use empty string if translation is not available
+      $(this).html(t9ntable[key] || ''); // Use empty string if translation is not available
     });
 
     $('[data-t9n-t]').each(function () {

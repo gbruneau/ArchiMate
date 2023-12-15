@@ -62,7 +62,29 @@
   "motie10": "Value: Represents the relative worth, utility, or importance of a concept.",
   "motiex1": "Stakeholder, Driver, and Assessmen",
   "motiex2": "Goal, Outcome, Principle, Requirement, and Constraint",
-  "motiex3": "Meaning and Value"
+  "motiex3": "Meaning and Value",
 
-  
+  "stra": "Strategy",
+  "strac1": "Section",
+  "strac2" : "Icon",
+  "strac3" : "Strategy Layer Examples",
+
+  "strar1" : "Active<br>Structure",
+  "strar2" : "Behavior<br>Elemen",
+  "strar3" : "Passive<br>Structure<br>Element",
+
+
+  "busi" : "Business Layer",
+
+  "app" : "Application Layer", 
+
+  "tech" : "Technology Layer", 
+
+  "phy" : "Physical Layer",
+
+  "imp": "Implementation<br>and Migration",
+
+  "about" : "About A3CC"
+
 }
+

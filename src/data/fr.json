@@ -41,7 +41,7 @@
   "intros5": "Sur tous les exemples, vous pouvez utiliser la molette de la souris pour zoomer/dézoomer.",
   "intros6": "Bonne lecture.",
   "intros7": "Survol du Cadre ArchiMate",
-  
+
   "meta": "Méta-modèle",
   "metas1": "Aperçu du méta-modèle",
   "moti": "Motivation",
@@ -61,5 +61,28 @@
   "motie10": "Valeur (Value): Représente la valeur relative, l'utilité ou l'importance d'un concept.",
   "motiex1": "Partie prenante, Déclencheurt et Diagnostic",
   "motiex2": "Objectif, Résultat, Principe, Exigence et Contrainte",
-  "motiex3": "Sens et Valeur"
+  "motiex3": "Sens et Valeur",
+
+
+  "stra": "Stratégie",
+  "strac1": "Section",
+  "strac2" : "Icône",
+  "strac3" : "Exmple couche stratégique",
+
+  "strar1": "Structure<br>Active",
+  "strar2": "Élément<br>de<br>Comportement",
+  "strar3": "Élément<br>de<br>Structure<br>Passive",
+  
+
+  "busi" : "Affaires",
+
+  "app" : "Applicative", 
+
+  "tech" : "Technologique", 
+
+  "phy" : "Physique",
+
+  "imp": "Implémentation",
+
+  "about" : "À propos"
 }

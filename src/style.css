@@ -59,6 +59,7 @@ body {
 .layerTable td, .layerTable th {
     border: 1px solid #666;
     padding: 2px;
+    font-size: 10pt;
   }
 
   
@@ -69,6 +70,7 @@ body {
 
   .layerTable th{
   vertical-align: bottom;
+  font-size: 10pt;
 }
 
 .layerTable td{

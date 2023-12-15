@@ -58,5 +58,28 @@
   "motie10": "Valor (Value): Representa el valor relativo, utilidad o importancia de un concepto.",
   "motiex1": "Participante, Impulsor y Evaluación",
   "motiex2": "Objetivo, Resultado, Principio, Requisito y Restricción",
-  "motiex3": "Significado y Valor"
+  "motiex3": "Significado y Valor",
+
+  "stra": "Estrategia",
+  "strac1": "Sección",
+  "strac2": "Ícono",
+  "strac3": "Ejemplos de Capa de Estrategia",
+  "strar1": "Estructura<br>Activa",
+  "strar2": "Elemento<br>de<br>Comportamiento",
+  "strar3": "Elemento<br>de<br>Estructura<brPasiva",
+
+  
+  "busi": "Negocios",
+  
+  "app": "Aplicación",
+  
+  "tech": "Tecnológica",
+  
+  "phy": "Física",
+  
+  "imp": "Implementación",
+  
+  "about": "Acerca de A3CC"
+  
+
 }
