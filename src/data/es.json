@@ -1,6 +1,7 @@
 {
   "maintitle": "Hoja de trucos de ArchiMate 3",
   "sellang": "Idioma",
+  "contrib": "Contribuyentes", 
 
   "relt": "Referencia de Relaciones",
   "relc1": "Estructural",
@@ -154,10 +155,33 @@
 
   
   "phy": "Física",
-  
+  "phyc1": "Sección",
+  "phyc2": "Ícono",
+  "phyc3": "Ejemplos de Capa Tecnológica",
+  "phyr1": "Estructura<br>Activa",
+  "phyr3": "Elemento<br>de<br>Estructura<br>Pasiva",
+
+  "phye1": "Elementos Físicos",
+
+  "phyd1": "Equipo: Representa una o varias máquinas, herramientas o instrumentos físicos que pueden crear, usar, almacenar, mover o transformar materiales.",
+  "phyd2": "Instalación: Representa una estructura física o entorno.",
+  "phyd3": "Red de Distribución: Representa una red física utilizada para transportar materiales o energía.",
+  "phyd4": "Material: Representa una sustancia física tangible o energía.",
+
   "imp": "Implementación",
+  "impc1": "Sección",
+  "impc2": "Ícono",
+  "impc3": "Ejemplos de capas de implementación y migración",
+  "impr1": "Estructura<br>Activa",
+  "impd1": "Paquete de Trabajo: Representa una serie de acciones identificadas y diseñadas para lograr resultados específicos dentro de restricciones de tiempo y recursos especificadas.",
+  "impd2": "Entregable: Representa un resultado precisamente definido de un paquete de trabajo.",
+  "impd3": "Evento de Implementación: Representa un cambio de estado relacionado con la implementación o migración.",
+  "impd4": "Nivel: Representa un estado relativamente estable de la arquitectura que existe durante un período limitado.",
+  "impd5": "Brecha: Representa una declaración de diferencia entre dos niveles.",
   
   "about": "Acerca de A3CC"
+
+
   
 
 }

@@ -1,6 +1,7 @@
 {
   "maintitle": "Aide-mémoire ArchiMate 3",
   "sellang": "Langue",
+  "contrib": "Contributeurs", 
 
   "relt": "Référence des relations",
   "relc1": "Structurale",
@@ -10,19 +11,19 @@
   "relc5": "Connecteurs",
   "relt1": "Composé de : Représente qu'un élément est composé d'un ou plusieurs autres concepts. L'interprétation d'une relation de composition est que la totalité ou une partie de l'élément source est composée de la totalité de l'élément cible.",
   "relt1n": "Composition",
-  "relt2": "Agrège : Représente qu'un élément combine un ou plusieurs autres concepts. L'interprétation d'une relation d'agrégation est que la totalité ou une partie de l'élément source agrège la totalité du concept cible.",
+  "relt2": "Relation d’Agrégation: Représente qu’un élément combine un ou plusieurs autres concepts.",
   "relt2n": "Agrégation",
   "relt3": "Sert : Représente qu'un élément offre sa fonctionnalité à un autre élément. La relation de service décrit comment, les services ou interfaces offerts par un comportement ou un élément de structure active, servent les entités dans leur environnement. Cette relation s'applique à la fois à l'aspect comportemental et à l'aspect de la structure active.",
   "relt3n": "Service",
-  "relt4": "Accède : Représente la capacité des éléments de comportement et de structure active à observer ou agir sur des éléments de structure passive. La relation d'accès indique qu'un processus, une fonction, une interaction, un service ou un événement 'fait quelque chose' avec un élément de structure passive ; par exemple, créer un nouvel objet, lire des données de l'objet, écrire ou modifier les données de l'objet, ou supprimer l'objet.",
+  "relt4": "Relation d'Accès : Représente l’aptitide qu’ont les éléments de comportement et de structure active à observer ou à agir sur des éléments de structure passive.",
   "relt4n": "Accès",
-  "relt5": "Assigne à : Représente l'allocation de responsabilité, l'exécution de comportement, le stockage ou l'exécution. L'interprétation d'une relation d'attribution est que la totalité ou une partie de l'élément source est attribuée à la totalité de l'élément cible. Cela signifie que si, par exemple, deux éléments de structure active sont attribués au même élément de comportement, l'un ou l'autre peut effectuer le comportement complet.",
+  "relt5": "Relation d’Assignation: Représente l’attribution de responsabilité, la réalisation de comportement ou l’exécution.",
   "relt5n": "Assignation",
   "relt6": "Réalise : Représente qu'une entité joue un rôle crucial dans la création, la réalisation, le maintien ou le fonctionnement d'une entité plus abstraite. L'interprétation d'une relation de réalisation est que la totalité ou une partie de l'élément source réalise la totalité de l'élément cible. Cela signifie que si, par exemple, deux éléments de comportement internes ont une relation de réalisation avec le même service, l'un ou l'autre peut réaliser le service complet. Si les deux éléments de comportement internes sont nécessaires pour réaliser, l'élément de regroupement ou une jonction 'et' peut être utilisé. Pour des types d'effets plus faibles sur la réalisation d'un élément de motivation, la relation d'influence devrait être utilisée.",
   "relt6n": "Réalisation",
   "relt7": "Influence : Représente qu'un élément affecte la mise en œuvre ou la réalisation d'un élément de motivation. La relation d'influence est utilisée pour décrire certains éléments architecturaux qui influent sur la réalisation ou la mise en œuvre d'un élément de motivation, tel qu'un objectif ou un principe. En général, un élément de motivation est réalisé à un certain degré.",
   "relt7n": "Réalisation",
-  "relt8": "Associé à : Représente une relation non spécifiée, ou une relation qui n'est pas représentée par une autre relation ArchiMate. La relation d'association peut être utilisée lors de la création d'un premier modèle de haut niveau où les relations sont initialement indiquées de manière générique, puis affinées pour montrer des types de relations plus spécifiques ultérieurement.",
+  "relt8": "Relation d’Association: Représente une relation non spécifiée, ou qui n’est pas représentable par une autre relation ArchiMate.",
   "relt8n": "Association",
   "relt9": "Déclenche : Représente une relation temporelle ou causale entre des éléments. La relation de déclenchement est utilisée pour modéliser la précédence temporelle ou causale des éléments de comportement dans un processus. L'interprétation d'une relation de déclenchement est qu'une partie de l'élément source doit être terminée avant que l'élément cible puisse commencer.",
   "relt9n": "Déclenchement",
@@ -158,8 +159,32 @@
   "techd14": "Objet de Données : Représente une structure de données.",
 
   "phy" : "Physique",
+  "phyc1": "Section",
+  "phyc2" : "Icône",
+  "phyc3" : "Exemples couche technologique",
+  "phyr1": "Structure<br>Active",
+  "phyr3": "Élément<br>de<br>Structure<br>Passive",
+
+  "phye1": "Éléments Physiques",
+
+  "phyd1": "Équipement : Représente une ou plusieurs machines, outils ou instruments physiques qui peuvent créer, utiliser, stocker, déplacer ou transformer des matériaux.",
+  "phyd2": "Installation : Représente une structure physique ou un environnement.",
+  "phyd3": "Réseau de Distribution : Représente un réseau physique utilisé pour transporter des matériaux ou de l'énergie.",
+  "phyd4": "Matérieaux : Représente une matière physique tangible ou de l'énergie.",
+
+
 
   "imp": "Implémentation",
+  "impc1": "Section",
+  "impc2" : "Icône",
+  "impc3" : "Exemples de couches d'mplémentation et de migration",
+  "impr1": "Structure<br>Active",
+  "impd1": "Bloc de travail : Représente une série d'actions identifiées et conçues pour atteindre des résultats spécifiques dans des contraintes de temps et de ressources spécifiées.",
+  "impd2": "Livrable : Représente un résultat précisément défini d'un bloc de travail.",
+  "impd3": "Événement de Mise en œuvre : Représente un changement d'état lié à la mise en œuvre ou à la migration.",
+  "impd4": "Plateau : Représente un état relativement stable de l'architecture qui existe pendant une période limitée.",
+  "impd5": "Écart : Représente une déclaration de différences entre deux plateaux.",
+  
 
   "about" : "À propos"
 }

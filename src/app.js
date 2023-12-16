@@ -129,7 +129,6 @@ function updateLanguage() {
       $(this).prop('title',t9ntable[key] || ''); // Use empty string if translation is not available
     });
 
-
   });
 }
 
@@ -143,6 +142,14 @@ $(document).ready(function () {
         value: language.code,
         text: language.name
       }));
+
+      console.log(`Langue: ${language.name}`)
+      var sl="";
+      $.each(language.contributors,function(index,contrib){
+        sl+=`<a target="_blank" href="${contrib.url}">${contrib.translator}</a>&nbsp;`
+      });
+      var s=`<tr><td>${language.name}</td><td>${sl}</td></tr>`
+      $("#tContrib").append(s);
     });
 
     // Initialize language switcher

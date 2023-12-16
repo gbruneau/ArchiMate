@@ -16,7 +16,7 @@
     --colToolTips: #ECECC5;
     --colDialog: #ECF9F6;
 
-   }
+       }
  
 .signatureGB {
     font-family: 'Bilbo Swash Caps', cursive;
@@ -341,7 +341,7 @@ border: 1px solid #000;
 
 
 .ui-tabs-vertical { width: 68em }
-.ui-tabs-vertical > .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 7em; }
+.ui-tabs-vertical > .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 8em; }
 .ui-tabs-vertical > .ui-tabs-nav li 
     { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; 
       font-size: 10pt;
@@ -351,8 +351,10 @@ border: 1px solid #000;
 .ui-tabs-vertical > .ui-tabs-panel { 
     padding: 1em;
     float: left;
-    width: calc(100% - 8em);
+    width: calc(100% - 9em);
 }
+
+
 
 /* Better menu selection highlight */
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
@@ -410,3 +412,37 @@ border: 1px solid #000;
 .gbTabs {
     width: calc(100% - 4em);
 }
+
+/* contributor table */
+
+table.contrib 
+{
+font-size: smaller;
+border-color: var(--colDark);
+border-width: 2px;
+border-style: solid;
+border-collapse: collapse;
+}
+
+table.contrib td, table.contrib th {
+    border-width: 2px;
+    border-color: var(--colDark);
+    border-style: solid;
+    padding: 6pt 2pt 6pt 2pt;
+    text-align: left;
+  }
+
+  table.contrib th {
+   background-color: var(--colDark);
+   color: var(--colBright);
+  }
+
+a:link,  a:visited  {
+    text-decoration: underline;
+  }
+
+  .gbContent a:active, .gbContent  a:hover  {
+    text-decoration: none;
+    background-color: var(--colDark);
+    color: var(--colBright);
+  }

@@ -1,14 +1,32 @@
 [
   {
     "code": "en",
-    "name": "English"
+    "name": "English",
+    "contributors": [
+      {
+        "translator": "Guy Bruneau",
+        "url": "https://www.linkedin.com/in/guybruneau1964/"
+      }
+    ]
   },
   {
     "code": "es",
-    "name": "Español"
+    "name": "Español",
+    "contributors": [
+      {
+        "translator": "Guy Bruneau",
+        "url": "https://www.linkedin.com/in/guybruneau1964/"
+      }
+    ]
   },
   {
     "code": "fr",
-    "name": "Français"
+    "name": "Français",
+    "contributors": [
+      {
+        "translator": "Guy Bruneau",
+        "url": "https://www.linkedin.com/in/guybruneau1964/"
+      }
+    ]
   }
 ]
