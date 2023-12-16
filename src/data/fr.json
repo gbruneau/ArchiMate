@@ -51,7 +51,7 @@
   "motic3": "Exemples de l'aspect motivations",
   "motir1": "Éléments",
   "motie1": "Partie prenante (Stakeholder) : Représente le rôle d'un individu, d'une équipe ou d'une organisation (ou de classes correspondantes) qui défend leurs intérêts dans les effets de l'architecture.",
-  "motie2": "Déclencheur (Driver) : Représente une condition externe ou interne qui pousse une organisation à définir ses objectifs et à mettre en œuvre les changements nécessaires pour les atteindre.",
+  "motie2": "Moteur (Driver) : Représente une condition externe ou interne qui pousse une organisation à définir ses objectifs et à mettre en œuvre les changements nécessaires pour les atteindre.",
   "motie3": "Diagnostic (Assessment): Représente le résultat d'une analyse de l'état des affaires de l'entreprise par rapport à un  déclencheur.",
   "motie4": "But (Goal): Représente une déclaration de haut niveau d'intention, de direction ou d'état final souhaité pour une organisation et ses intervenants.",
   "motie5": "Résultat (Outcome): Représente un résultat final.",
