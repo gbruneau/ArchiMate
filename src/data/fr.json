@@ -51,8 +51,8 @@
   "motic3": "Exemples de l'aspect motivations",
   "motir1": "Éléments",
   "motie1": "Partie prenante (Stakeholder) : Représente le rôle d'un individu, d'une équipe ou d'une organisation (ou de classes correspondantes) qui défend leurs intérêts dans les effets de l'architecture.",
-  "motie2": "Moteur (Driver) : Représente une condition externe ou interne qui pousse une organisation à définir ses objectifs et à mettre en œuvre les changements nécessaires pour les atteindre.",
-  "motie3": "Évaluation (Assessment): Représente le résultat d'une analyse de l'état des affaires de l'entreprise par rapport à un moteur.",
+  "motie2": "Déclencheur (Driver) : Représente une condition externe ou interne qui pousse une organisation à définir ses objectifs et à mettre en œuvre les changements nécessaires pour les atteindre.",
+  "motie3": "Diagnostic (Assessment): Représente le résultat d'une analyse de l'état des affaires de l'entreprise par rapport à un moteur.",
   "motie4": "But (Goal): Représente une déclaration de haut niveau d'intention, de direction ou d'état final souhaité pour une organisation et ses intervenants.",
   "motie5": "Résultat (Outcome): Représente un résultat final, un effet ou une conséquence d’un certain état de fait.",
   "motie6": "Principe (Principle): Représente une déclaration d'intention définissant une propriété générale qui s'applique à tout système dans un certain contexte dans l'architecture.",
@@ -61,7 +61,7 @@
   "motie9": "Signification (Meaning): Représente la connaissance ou l'expertise présente dans, ou l'interprétation donnée à, un concept dans un contexte particulier.",
   "motie10": "Valeur (Value): Représente la valeur relative, l'utilité ou l'importance d'un concept.",
   "motiex1": "Partie prenante, Déclencheurt et Diagnostic",
-  "motiex2": "Objectif, Résultat, Principe, Exigence et Contrainte",
+  "motiex2": "But, Résultat, Principe, Exigence et Contrainte",
   "motiex3": "Signification et Valeur",
 
 
