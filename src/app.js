@@ -27,7 +27,7 @@ $(function () {
     $(".gbDialog").dialog(
       {
         autoOpen: false,
-        minWidth: 500,
+        minWidth: 700,
         position: {
           my: "top",
           at: "center top"

@@ -77,7 +77,6 @@
   "strad1": "Recurso (Resource): Representa un activo propiedad o controlado por un individuo u organización.",
   "strad2": "Capacidad (Capability): Representa una habilidad que posee un elemento de estructura activa, como una organización, persona o sistema.",
   "strad3": "Curso de acción (Course of action): Representa un enfoque o plan para configurar algunas capacidades y recursos de la empresa, realizado para alcanzar un objetivo.",
-  "strad4": "Ubicación (Location): Representa un lugar físico.",
   "strad5" : "Flujo de valor: Representa una secuencia de actividades que crean un resultado general para un cliente, una parte interesada o un usuario final.",
 
   "busi": "Negocios",
@@ -180,6 +179,17 @@
   "impd4": "Nivel: Representa un estado relativamente estable de la arquitectura que existe durante un período limitado.",
   "impd5": "Brecha: Representa una declaración de diferencia entre dos niveles.",
   
+  "oth" : "Otro",
+  "othr1" : "Elementos Compuestos",
+  "othc1" : "Sección",
+  "othc2" : "Ícono",
+  "othc3" : "Ejemplo de Elementos Compuestos",
+
+  "othd1": "Ubicación (Location): Representa un lugar o posición conceptual o física donde se ubican los conceptos (por ejemplo, elementos de estructura) o se realizan (por ejemplo, elementos de comportamiento).",
+  "othd2" : "Agrupador (Grouping): El elemento agrupador agrega o compone conceptos que pertenecen juntos en función de alguna característica común.",
+  
+  "othe1" : "Ubicación y Agrupador",
+
   "about": "Acerca de A3CC"
 
 

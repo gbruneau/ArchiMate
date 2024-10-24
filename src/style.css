@@ -135,6 +135,13 @@ body {
     background-color: #ffe0e0;
 }
 
+
+#otherContent {
+    background-color: #eeeeee;
+}
+
+
+
 /*  === Elements inside the layer === */
 
 .arcElem {
