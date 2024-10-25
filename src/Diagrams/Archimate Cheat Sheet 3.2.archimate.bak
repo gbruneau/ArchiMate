@@ -3647,7 +3647,7 @@ with Market Share</content>
             <sourceConnection xsi:type="archimate:Connection" id="id-fc05b2d8291d4c94aa970f7a2451e5e3" source="id-9b389f30cae9475493535ad38bad9e8d" target="id-206f3ebd8a104315bcbee01a3564ea30" archimateRelationship="id-efb8d4ee0e0044e1a997991e67552164"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-bff9a6c3c9b24fc589a253cceeafee55" targetConnections="id-c2cc82e6ccf642369025c674ea73de30 id-e4d56cec693f4767abbabc58a62f3fb1" archimateElement="id-02c910c5a887403dab7864acc50b857f">
-            <bounds x="948" y="164" width="120" height="55"/>
+            <bounds x="948" y="164" width="133" height="55"/>
             <feature name="labelExpression" value="Offre d'assurance complète"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9fb3647d73924431a8de5ee2c6f9f807" textPosition="1" archimateElement="id-c71b3e1fb3494961b9d150d071b995f3">
@@ -3744,24 +3744,24 @@ with Market Share</content>
             <sourceConnection xsi:type="archimate:Connection" id="id-c6cf0bc8b9df4016be76bd8482e4d46a" source="id-25555fce18c142fb8f04ff4387ecfa3d" target="id-e5ba0ffb65c745acaa72d5460e09da6b" archimateRelationship="id-95eb55fff21e45a48a292210bb0f3d28"/>
             <child xsi:type="archimate:DiagramObject" id="id-efcbcac80e8942e7a0decab491e94b56" targetConnections="id-fda2990cd23241a6b3ec56c5ce3a8141" archimateElement="id-80a49fa6b4c44762ba236d5197e32fc8">
               <bounds x="12" y="24" width="120" height="55"/>
-              <feature name="labelExpression" value="Customer service"/>
+              <feature name="labelExpression" value="Service à la clientèle"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-aeb61ed81b1645d3a64b0ab7e091a895" targetConnections="id-35544973d09e4cf18ff93b8c3021a5cb" archimateElement="id-23dcd60b1a6a45eab76b0ac8166a241a">
               <bounds x="12" y="84" width="120" height="55"/>
-              <feature name="labelExpression" value="Service Channel management"/>
+              <feature name="labelExpression" value="Gestion des canaux de service"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-878799a4d70549e18eec5d5ff57b05c2" targetConnections="id-66ea1f489f9f4768b2b3e4e7d8c73378" archimateElement="id-2b5a05877be2488e85d8a9175d703045">
               <bounds x="144" y="24" width="120" height="55"/>
-              <feature name="labelExpression" value="Customer relation management"/>
+              <feature name="labelExpression" value="Gestion de la relation client"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-2dcfbb392fc84b75929e205cff5b4e28" targetConnections="id-9325413fef49457983417eedf1fe22c6" archimateElement="id-eb5c376708c943e79eafe98fb95f209e">
               <bounds x="144" y="84" width="120" height="55"/>
-              <feature name="labelExpression" value="Customer data management"/>
+              <feature name="labelExpression" value="Gestion des données clients"/>
             </child>
           </child>
           <child xsi:type="archimate:Note" id="id-215ac93e6a3e47f0bef1ab7c095cb641" textAlignment="1">
             <bounds x="984" y="252" width="185" height="266"/>
-            <feature name="labelExpression" value="Model of a high-level value stream for an insurance company, where each stage in the value stream is served by a number of capabilities. Between these stages, we see the value flows with associated value items, and at the end the business outcome that this value stream realizes for a particular stakeholder."/>
+            <feature name="labelExpression" value="Modèle d'une chaîne de valeur de haut niveau pour une compagnie d'assurance, où chaque étape de la chaîne de valeur est desservie par un certain nombre de capacités. &#xA;Entre ces étapes, on voit les flux de valeur avec les éléments de valeur associés, et à la fin le résultat commercial que ce flux de valeur réalise pour une partie prenante particulière."/>
           </child>
         </element>
       </folder>
