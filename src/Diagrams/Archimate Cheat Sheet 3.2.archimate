@@ -83,7 +83,7 @@
     <element xsi:type="archimate:BusinessProcess" name="Business Process" id="id-6310d2032ceb4777a78706fa378c0f36"/>
     <element xsi:type="archimate:BusinessProcess" name="Business Process" id="id-3f83d63018404158bf95657edbf57903"/>
     <element xsi:type="archimate:BusinessObject" name="Business Object" id="id-f1db5e4c828b43eabf176a0e468dc467"/>
-    <element xsi:type="archimate:BusinessRole" name="Resource" id="id-727f03aab29a4cc690c0172c1285c6c3"/>
+    <element xsi:type="archimate:Product" name="tmp" id="id-97f6605026bc4bda895d41a73a4ba2c7"/>
   </folder>
   <folder name="Application" id="id-6dc869d2b5e141e9a618e143307b5999" type="application">
     <folder name="Achimate Reference" id="id-ea7c6f8d1c894863b4d4667555145797">
@@ -3676,17 +3676,17 @@ with Market Share</content>
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9153736eaae2476caac160b1324f22bb" fillColor="#faf0d7" archimateElement="id-e782e8777e084d888718ab657de1d74b">
-            <bounds x="288" y="420" width="145" height="145"/>
+            <bounds x="276" y="420" width="157" height="145"/>
             <feature name="labelExpression" value="Commercialisation"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-b9ae9fe8659b4305b3a2edd27af379c3" source="id-9153736eaae2476caac160b1324f22bb" target="id-5e086f4be5f149b397a5a335e4188a7b" archimateRelationship="id-827d69d028ee4051868a69634307d4bd"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-04c96fefe9294f618e5230cba918de1b" source="id-9153736eaae2476caac160b1324f22bb" target="id-72bf089885de45b1bbc49f532c37ea88" archimateRelationship="id-bc999df84f644db78cfda5b77ffdf073"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-7a058822a3404402b85d9de1c9802470" source="id-9153736eaae2476caac160b1324f22bb" target="id-f2c614437e264d1fa5e1f4bb48423033" archimateRelationship="id-9f3bf6e348c54e57b4fcdf28fea4e7b4"/>
-            <child xsi:type="archimate:DiagramObject" id="id-5e086f4be5f149b397a5a335e4188a7b" targetConnections="id-b9ae9fe8659b4305b3a2edd27af379c3" archimateElement="id-f2128fa44a384a808b13b6214b006679">
-              <bounds x="12" y="36" width="120" height="37"/>
+            <child xsi:type="archimate:DiagramObject" id="id-5e086f4be5f149b397a5a335e4188a7b" targetConnections="id-b9ae9fe8659b4305b3a2edd27af379c3" textPosition="2" archimateElement="id-f2128fa44a384a808b13b6214b006679">
+              <bounds x="12" y="36" width="132" height="49"/>
               <feature name="labelExpression" value="Développement du marché"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-72bf089885de45b1bbc49f532c37ea88" targetConnections="id-04c96fefe9294f618e5230cba918de1b" archimateElement="id-4d258ad935354081bf51856d0000837e">
-              <bounds x="12" y="84" width="120" height="37"/>
+              <bounds x="12" y="96" width="126" height="37"/>
               <feature name="labelExpression" value="Gestion des campagnes"/>
             </child>
           </child>
@@ -5818,9 +5818,9 @@ implementation process, or its realization.</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="tmp" id="id-80dc17a71f48461a82167f0ae22a3f91">
-      <child xsi:type="archimate:DiagramObject" id="id-4c3090fb0f004c309ccf96efa613f1c4" textPosition="1" archimateElement="id-727f03aab29a4cc690c0172c1285c6c3">
+      <child xsi:type="archimate:DiagramObject" id="id-4c3090fb0f004c309ccf96efa613f1c4" textPosition="1" archimateElement="id-97f6605026bc4bda895d41a73a4ba2c7">
         <bounds width="120" height="55"/>
-        <feature name="labelExpression" value="rol de negocios"/>
+        <feature name="labelExpression" value="Producto"/>
       </child>
     </element>
   </folder>

@@ -77,7 +77,7 @@
   "strad1": "Ressource (Resource): Représente un actif détenu ou contrôlé par un individu ou une organisation.",
   "strad2": "Capacité (Capability): Représente une capacité qu'un élément de structure actif, tel qu'une organisation, une personne ou un système, possède.",
   "strad3": "Plan d'action/Feuille de route (Course of action): Représente une approche ou un plan de configuration de certaines capacités et ressources de l'entreprise, entrepris pour atteindre un objectif.",
-  "strad5" : "Flux de valeur: Représente une séquence d’activités qui créent un résultat global pour un client, une partie prenante ou un utilisateur final.",
+  "strad5" : "Flux de valeur (Value Stream): Représente une séquence d’activités qui créent un résultat global pour un client, une partie prenante ou un utilisateur final.",
 
   "busi" : "Affaires",
   "busic1": "Section",
