@@ -5432,7 +5432,7 @@ a Claims Processing business service</content>
             <sourceConnection xsi:type="archimate:Connection" id="id-18b75d1367364e0994eaac3f43996210" source="id-253875cfee0b4366a715335480a0da2b" target="id-90998ff1565a4d8282f2238f3bbd974f" archimateRelationship="id-e1ad3949ba1a42f6a9a8edb8eeb0cf1f"/>
             <child xsi:type="archimate:DiagramObject" id="id-227291ea72c24d088a1e5b76f409c9a9" targetConnections="id-527c3bb6df8a4c60816fa48334cee21a" archimateElement="id-5e7f11ac79914f21b50fda1c2e40ff8e" type="1">
               <bounds x="24" y="36" width="169" height="97"/>
-              <feature name="labelExpression" value="Quotation Virtual Host"/>
+              <feature name="labelExpression" value="Cotización host virtual"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-d270b4ac34ae4633808f138f1cb41687" source="id-227291ea72c24d088a1e5b76f409c9a9" target="id-3aba1530899b48d9a828b05efbec5564" archimateRelationship="id-98c6e6b619d743509e2022c3bf40a35b"/>
               <child xsi:type="archimate:DiagramObject" id="id-3aba1530899b48d9a828b05efbec5564" targetConnections="id-d270b4ac34ae4633808f138f1cb41687 id-ea5251c554eb4108a638fc91f32a900e" textPosition="1" archimateElement="id-f1783163fe1d4cc9a72f3733be35ef08">
                 <bounds x="24" y="36" width="120" height="55"/>
@@ -5441,11 +5441,11 @@ a Claims Processing business service</content>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-2f8e79eef2ae4747b21bec731601b8f9" targetConnections="id-2b0f5d241d6645bb95d0a3eb18f18f78" archimateElement="id-ce61409a1b4847709b6809a2f8408ecb" type="1">
               <bounds x="408" y="36" width="156" height="97"/>
-              <feature name="labelExpression" value="Purchase Virtual Host"/>
+              <feature name="labelExpression" value="Compra host virtual"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-9b464f5818df4311918a4287f0a9d6fb" source="id-2f8e79eef2ae4747b21bec731601b8f9" target="id-79b5d69b5fd549b18dee964759d74f89" archimateRelationship="id-88b67963fcaf47858291f1dc4a610b42"/>
               <child xsi:type="archimate:DiagramObject" id="id-79b5d69b5fd549b18dee964759d74f89" targetConnections="id-9b464f5818df4311918a4287f0a9d6fb id-8224c5e1067e4bed8c48c662d87b6c59" textPosition="1" archimateElement="id-7a4be03d470d4c62acf73ec422f547df">
                 <bounds x="12" y="36" width="120" height="55"/>
-                <feature name="labelExpression" value="Proprietary Operating System"/>
+                <feature name="labelExpression" value="Sistema operativo propietario"/>
               </child>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-90998ff1565a4d8282f2238f3bbd974f" targetConnections="id-18b75d1367364e0994eaac3f43996210 id-23ebbff4a0cf4e8997c4e57612d4647e" textPosition="1" archimateElement="id-2c6a34fd275c4853b9fcaa754c9ffb4f">
@@ -5461,7 +5461,7 @@ a Claims Processing business service</content>
           </child>
           <child xsi:type="archimate:Note" id="id-a46962a494c4466a85ece1ffe3b09896" textAlignment="1">
             <bounds x="732" y="52" width="289" height="549"/>
-            <feature name="labelExpression" value="Dos dispositivos Blade System están conectados a una red de comunicación,Red de centro de datos.&#xA;&#xA;Esta a su vez está conectada a otra red de comunicación, Red de área amplia, a través de un nodo, Conmutador de centro de datos.&#xA;&#xA;Las dos redes de comunicación juntas crean una ruta, Ruta de replicación de datos.&#xA;&#xA;Tanto los dispositivos Blade System como el nodo Data Center Switch tienen una interfaz tecnológica, Interfaz de administración.&#xA;&#xA;El dispositivo Blade System 1 implementa el software del sistema Hypervisor para la virtualización de hardware.&#xA;&#xA;Se implementan dos componentes de software del sistema en el Hypervisor: un sistema operativo Linux y un sistema operativo propietario, creando dos hosts virtuales, modelados como nodos, Quotation Virtual Host y Purchase Virtual Host."/>
+            <feature name="labelExpression" value="Dos dispositivos Blade System están conectados a una red de comunicación,Red de centro de datos.&#xA;&#xA;Esta a su vez está conectada a otra red de comunicación, Red de área amplia, a través de un nodo, Conmutador de centro de datos.&#xA;&#xA;Las dos redes de comunicación juntas crean una ruta, Ruta de replicación de datos.&#xA;&#xA;Tanto los dispositivos Blade System como el nodo Data Center Switch tienen una interfaz tecnológica, Interfaz de administración.&#xA;&#xA;El dispositivo Blade System 1 implementa el software del sistema Hypervisor para la virtualización de hardware.&#xA;&#xA;Se implementan dos componentes de software del sistema en el Hypervisor: un sistema operativo Linux y un sistema operativo propietario, creando dos hosts virtuales, modelados como nodos, Cotización host virtual y Compra host virtual."/>
             <content>Dos dispositivos Blade System están conectados a una red de comunicación, Data Center Network.
 
 Esta a su vez está conectada a otra red de comunicación, Wide Area Network, a través de un nodo, Data Center Switch.

@@ -414,7 +414,7 @@
     <element xsi:type="archimate:Deliverable" name="Deliverable" id="id-bcf3ec42f3f14d5db9eb2524294bb61d"/>
     <element xsi:type="archimate:ImplementationEvent" name="Implementation Event" id="id-a8bd6de6a0fe47b2af0f2ce1e3cbfecf"/>
     <element xsi:type="archimate:Plateau" name="Plateau" id="id-7008bdd70a7d4556987d64979181874c"/>
-    <element xsi:type="archimate:Gap" name="Gap" id="id-caaccb5d866c4cfc832bc31e877aef34"/>
+    <element xsi:type="archimate:WorkPackage" name="Gap" id="id-673feaa2709348bc9809f2995b8fd60d"/>
   </folder>
   <folder name="Other" id="id-10f0fe8b375a43fd9ab1f2718763417c" type="other">
     <folder name="Archimate Reference" id="id-c66e9bbe93d94e049075f07342ac223d">
@@ -7529,9 +7529,9 @@ implementation process, or its realization.</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="tmp" id="id-80dc17a71f48461a82167f0ae22a3f91">
-      <child xsi:type="archimate:DiagramObject" id="id-f0fd6e456d5a4dc9938bc6ffa78d813a" textPosition="1" archimateElement="id-caaccb5d866c4cfc832bc31e877aef34">
+      <child xsi:type="archimate:DiagramObject" id="id-f0fd6e456d5a4dc9938bc6ffa78d813a" textPosition="1" archimateElement="id-673feaa2709348bc9809f2995b8fd60d">
         <bounds x="356" y="169" width="120" height="55"/>
-        <feature name="labelExpression" value="Écart"/>
+        <feature name="labelExpression" value="Bloc de travail"/>
       </child>
     </element>
   </folder>
