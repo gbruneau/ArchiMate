@@ -4741,7 +4741,7 @@ a Claims Processing business service</content>
             <sourceConnection xsi:type="archimate:Connection" id="id-868c14244bea40169825d5f51b96844e" source="id-074ae22318524c6cae8a3a124c5fc9d0" target="id-e1ba2983576f449a87c87b905c55625b" archimateRelationship="id-d3c36ed59c794bda9d8597e2afdba8fc"/>
             <child xsi:type="archimate:DiagramObject" id="id-7ee4456f38fa467cbd8b1a18d4fb505a" targetConnections="id-0f16c5a805e448ebbc1e21bb648d8e60" textPosition="1" archimateElement="id-c829375942fe47f395584196715572ec" type="1">
               <bounds x="24" y="48" width="120" height="97"/>
-              <feature name="labelExpression" value="Garantie bonne conduite et épargne"/>
+              <feature name="labelExpression" value="Garantia Buena conducción y ahorro"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="id-e1ba2983576f449a87c87b905c55625b" targetConnections="id-868c14244bea40169825d5f51b96844e" textPosition="1" archimateElement="id-34ec11b8130143e189a95887dee6aa67" type="1">
               <bounds x="24" y="156" width="120" height="55"/>
