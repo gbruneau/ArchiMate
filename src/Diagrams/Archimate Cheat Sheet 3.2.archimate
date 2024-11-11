@@ -143,6 +143,8 @@
       <documentation>DriveeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeWll and Saveeeeeeeeagrement</documentation>
     </element>
     <element xsi:type="archimate:BusinessService" name="Buena conducción y ahorro" id="id-34ec11b8130143e189a95887dee6aa67"/>
+    <element xsi:type="archimate:BusinessService" name="Business Service" id="id-04c4c73980ff4e8fa9a9ad26bdcad5c1"/>
+    <element xsi:type="archimate:BusinessObject" name="Business Object" id="id-31311f737f934060be3e4439a0aa518b"/>
   </folder>
   <folder name="Application" id="id-6dc869d2b5e141e9a618e143307b5999" type="application">
     <folder name="Achimate Reference" id="id-ea7c6f8d1c894863b4d4667555145797">
@@ -203,6 +205,38 @@
     <element xsi:type="archimate:DataObject" name="Data Object" id="id-5a133a66960d4938a882717f030a58e9"/>
     <element xsi:type="archimate:DataObject" name="Data Object" id="id-6792f2006e8d40ab83a354174d72d7a8"/>
     <element xsi:type="archimate:DataObject" name="Object" id="id-69f3e84929d94755bc649c551d03219d"/>
+    <element xsi:type="archimate:ApplicationEvent" name="Application Event" id="id-c9509ca86d724218b967b4eecc71081f"/>
+    <element xsi:type="archimate:ApplicationProcess" name="Application Process" id="id-f7f62d6f8ed9448c9136473336dba48c"/>
+    <element xsi:type="archimate:ApplicationService" name="Application Service" id="id-abf3ef610bdb4364bc2e4797238c5ada"/>
+    <element xsi:type="archimate:ApplicationService" name="Application Service" id="id-7cd6af2a6323449dbb873a18c0c65a64"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Application Function" id="id-a48ae5e7fa8d4ccea669e4209ce674bc"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Application Function" id="id-51bafcc20ef64a9db97f73be72fb35b2"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Application Function" id="id-ae14d9795ac946a9a978325466e17153"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-962ecabe7ce244dabe912e0816afafc1">
+      <documentation>Travel Website</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationInterface" name="Application Interface" id="id-1d9d45843a624f9289773ab52a402a68"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="Application Collaboration" id="id-5623f9cb5ad74c9c9682bdbeb832857b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-15b891669f4f49cdbb5cc4f778fdb5b8"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-e93d2b7a79ec42a3aed1e0b94297411b"/>
+    <element xsi:type="archimate:DataObject" name="Online Insurance Quotation" id="id-dd0289d6e41644a58e76e729b042069c">
+      <documentation>Online Insurance Quotation</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Auto Insurance Quotation" id="id-335daa059df541739cb229e70107fe59">
+      <documentation>Auto Insurance Quotation</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Data Object" id="id-ffba26252c9947989e5926604280a22f"/>
+    <element xsi:type="archimate:DataObject" name="Travel Insurance Quotation" id="id-16b59b2823444d0e881865f3f50b757d">
+      <documentation>Travel Insurance Quotation</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Data Object" id="id-e6417e41855d49af837045071408c5c1"/>
+    <element xsi:type="archimate:DataObject" name="Data Object" id="id-6041800382494266ba2fb0404f127b23">
+      <documentation>Purchased Itinerary</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Data Object" id="id-4698a928ca4f4de7bba11a31bc72e889"/>
+    <element xsi:type="archimate:DataObject" name="Online Insurance Quotation (copy)" id="id-f15a192626a646eba20abf4eeebe8c98">
+      <documentation>Online Insurance Quotation</documentation>
+    </element>
   </folder>
   <folder name="Technology &amp; Physical" id="id-dec9a84905104c3e9d8ca4f256506147" type="technology">
     <folder name="Archimate Reference" id="id-c9cb0325c04e4e06a39201148c6991f4">
@@ -683,6 +717,23 @@
     <element xsi:type="archimate:SpecializationRelationship" id="id-0176bb592dda4c1eb36bed797c5abdc1" source="id-7169dfae4ae54f9c8ac398029de184ec" target="id-bada630d5b6b46d2b6a0baeb471fb2c7"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-dbc09f5c3970415ca8371c356ef9a271" source="id-7169dfae4ae54f9c8ac398029de184ec" target="id-c829375942fe47f395584196715572ec"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-d3c36ed59c794bda9d8597e2afdba8fc" source="id-7169dfae4ae54f9c8ac398029de184ec" target="id-34ec11b8130143e189a95887dee6aa67"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-69c37a68e87b4e24b80972768c28a854" source="id-a48ae5e7fa8d4ccea669e4209ce674bc" target="id-ae14d9795ac946a9a978325466e17153"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-6e6603b97c1d49b795c757385e76940f" source="id-a48ae5e7fa8d4ccea669e4209ce674bc" target="id-51bafcc20ef64a9db97f73be72fb35b2"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-1379bafad9f64e7692f79503cfeb3554" source="id-ae14d9795ac946a9a978325466e17153" target="id-abf3ef610bdb4364bc2e4797238c5ada"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-225a4b7a31054b59b5610b503dde4955" source="id-51bafcc20ef64a9db97f73be72fb35b2" target="id-7cd6af2a6323449dbb873a18c0c65a64"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-bd5b56bfc230468890ed24fc6b99ac88" source="id-abf3ef610bdb4364bc2e4797238c5ada" target="id-f7f62d6f8ed9448c9136473336dba48c"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-84a22fc184294013af2694f1694f2aba" source="id-7cd6af2a6323449dbb873a18c0c65a64" target="id-f7f62d6f8ed9448c9136473336dba48c"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-189024b757f7421398419125480bbc25" source="id-c9509ca86d724218b967b4eecc71081f" target="id-f7f62d6f8ed9448c9136473336dba48c"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-418d1f1b0fe2488e834875ee2ff5c8d7" source="id-5623f9cb5ad74c9c9682bdbeb832857b" target="id-15b891669f4f49cdbb5cc4f778fdb5b8"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-9e00b31d2ae9470d9e2f6e3deee78027" source="id-5623f9cb5ad74c9c9682bdbeb832857b" target="id-e93d2b7a79ec42a3aed1e0b94297411b"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-48722db4048e4625ab09168c77e20d79" source="id-5623f9cb5ad74c9c9682bdbeb832857b" target="id-1d9d45843a624f9289773ab52a402a68"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-201aea8e96ea4f758dfa937909f311f8" source="id-1d9d45843a624f9289773ab52a402a68" target="id-962ecabe7ce244dabe912e0816afafc1"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-5f045fa3c666496c82df407ca5005249" source="id-335daa059df541739cb229e70107fe59" target="id-dd0289d6e41644a58e76e729b042069c"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-749c5018f624477bb6a2db0c301625f5" source="id-16b59b2823444d0e881865f3f50b757d" target="id-dd0289d6e41644a58e76e729b042069c"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-9665a95c57d0474db1fc532c04878718" source="id-16b59b2823444d0e881865f3f50b757d" target="id-6041800382494266ba2fb0404f127b23"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-e741b26dc9eb494084b613e23ca761c3" source="id-dd0289d6e41644a58e76e729b042069c" target="id-e6417e41855d49af837045071408c5c1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-46a5bd8bcec84f1a8bbdea14f85a1700" source="id-dd0289d6e41644a58e76e729b042069c" target="id-ffba26252c9947989e5926604280a22f"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-81c7c607ed09486599e38d957fd9b0b1" source="id-dd0289d6e41644a58e76e729b042069c" target="id-4698a928ca4f4de7bba11a31bc72e889"/>
   </folder>
   <folder name="Views" id="id-c04c08a6e1ff40eca28755fabb8da9ed" type="diagrams">
     <folder name="metamodel" id="id-5d1dc53dd5bc46ed872f9489422d7981">
@@ -4756,7 +4807,336 @@ a Claims Processing business service</content>
         </element>
       </folder>
       <folder name="Application" id="id-12406485947548b6a21c2007c4e86d1e">
-        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample1-en" id="id-0e4306dcd555433898988e8455d20600"/>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample2-en" id="id-0e4306dcd555433898988e8455d20600">
+          <child xsi:type="archimate:DiagramObject" id="id-abd74b014b2f45cda2e6f5d52b27b2e7" textPosition="1" archimateElement="id-c9509ca86d724218b967b4eecc71081f">
+            <bounds x="48" y="60" width="120" height="55"/>
+            <feature name="labelExpression" value="Request for a quotation"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-e9fb66a53c5543e8bc3ea2f3aec7c1e5" source="id-abd74b014b2f45cda2e6f5d52b27b2e7" target="id-61a6b5f7e04b4ab68691ca65b4c1147b" archimateRelationship="id-189024b757f7421398419125480bbc25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-61a6b5f7e04b4ab68691ca65b4c1147b" targetConnections="id-f5cb6816520745808444271cea2fa258 id-b42ea695e2a24b3abc75a99a124e01b9 id-e9fb66a53c5543e8bc3ea2f3aec7c1e5" textPosition="1" archimateElement="id-f7f62d6f8ed9448c9136473336dba48c">
+            <bounds x="204" y="60" width="287" height="55"/>
+            <feature name="labelExpression" value="Obtain travel insurance"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-a89caa822dfa443e9d0a531d082b1af3" targetConnections="id-809c3a02f3d24536a3477c63588c1463" textPosition="1" archimateElement="id-abf3ef610bdb4364bc2e4797238c5ada" type="1">
+            <bounds x="218" y="139" width="120" height="55"/>
+            <feature name="labelExpression" value="Get quotation"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f5cb6816520745808444271cea2fa258" source="id-a89caa822dfa443e9d0a531d082b1af3" target="id-61a6b5f7e04b4ab68691ca65b4c1147b" archimateRelationship="id-bd5b56bfc230468890ed24fc6b99ac88"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-903acdca85784b1e94df6186ec46227e" targetConnections="id-66d3040c44e744bc8649c720036bdafd" textPosition="1" archimateElement="id-7cd6af2a6323449dbb873a18c0c65a64" type="1">
+            <bounds x="360" y="139" width="120" height="55"/>
+            <feature name="labelExpression" value="Purchase quoted insurance"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-b42ea695e2a24b3abc75a99a124e01b9" source="id-903acdca85784b1e94df6186ec46227e" target="id-61a6b5f7e04b4ab68691ca65b4c1147b" archimateRelationship="id-84a22fc184294013af2694f1694f2aba"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-294942daf85547a8ac53d59d94e04274" archimateElement="id-a48ae5e7fa8d4ccea669e4209ce674bc">
+            <bounds x="204" y="216" width="287" height="109"/>
+            <feature name="labelExpression" value="Purchase Travel Insurance"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-4852169ff5f54538836b8af97af87661" source="id-294942daf85547a8ac53d59d94e04274" target="id-0519bd06f3434eb6a1962b6ab481b01f" archimateRelationship="id-69c37a68e87b4e24b80972768c28a854"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-833a9a62ea7e4f938ba04fb4a700c656" source="id-294942daf85547a8ac53d59d94e04274" target="id-11234b97d90b4b8099d2857ddc596f3d" archimateRelationship="id-6e6603b97c1d49b795c757385e76940f"/>
+            <child xsi:type="archimate:DiagramObject" id="id-0519bd06f3434eb6a1962b6ab481b01f" targetConnections="id-4852169ff5f54538836b8af97af87661" textPosition="1" archimateElement="id-ae14d9795ac946a9a978325466e17153">
+              <bounds x="12" y="36" width="120" height="55"/>
+              <feature name="labelExpression" value="Transfer Quotation"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-809c3a02f3d24536a3477c63588c1463" source="id-0519bd06f3434eb6a1962b6ab481b01f" target="id-a89caa822dfa443e9d0a531d082b1af3" archimateRelationship="id-1379bafad9f64e7692f79503cfeb3554"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-11234b97d90b4b8099d2857ddc596f3d" targetConnections="id-833a9a62ea7e4f938ba04fb4a700c656" textPosition="1" archimateElement="id-51bafcc20ef64a9db97f73be72fb35b2">
+              <bounds x="156" y="36" width="120" height="55"/>
+              <feature name="labelExpression" value="Finalize Purchase"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-66d3040c44e744bc8649c720036bdafd" source="id-11234b97d90b4b8099d2857ddc596f3d" target="id-903acdca85784b1e94df6186ec46227e" archimateRelationship="id-225a4b7a31054b59b5610b503dde4955"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Note" id="id-0c79cafe54c24f6cae6dc954b0b5c015" textAlignment="1">
+            <bounds x="516" y="60" width="265" height="264"/>
+            <feature name="labelExpression" value="The Purchase Travel Insurance application function is composed of two other application functions: &#xA;Transfer Quotation, realizing an application service Get Quotation, &#xA;and &#xA;Finalize Purchase, realizing an application service Purchase Quoted Insurance. &#xA;&#xA;An application event Request for a Quotation triggers an application process Obtain Travel Insurance, which is served by the two aforementioned application services."/>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample1-en" id="id-7369229d137b47aa8753d9cc8efa48b8">
+          <child xsi:type="archimate:DiagramObject" id="id-ede79e8692564d00896cd3ffbf5cbbcd" targetConnections="id-29039d2df97c441fa863dc1ee46d0e42" textPosition="1" archimateElement="id-962ecabe7ce244dabe912e0816afafc1">
+            <bounds x="204" y="24" width="120" height="55"/>
+            <feature name="labelExpression" value="Travel Website"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-319229b2b0e24f9291e2e162bd0e0b9f" targetConnections="id-db51c54367304721b0234d1008a19142" textPosition="1" archimateElement="id-1d9d45843a624f9289773ab52a402a68">
+            <bounds x="204" y="105" width="120" height="55"/>
+            <feature name="labelExpression" value="Web service interface"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-29039d2df97c441fa863dc1ee46d0e42" source="id-319229b2b0e24f9291e2e162bd0e0b9f" target="id-ede79e8692564d00896cd3ffbf5cbbcd" archimateRelationship="id-201aea8e96ea4f758dfa937909f311f8"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-8314e1c1c2de4a8f9144fe0cac663288" textPosition="1" archimateElement="id-5623f9cb5ad74c9c9682bdbeb832857b">
+            <bounds x="204" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Online travel insurance sales"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-5e92f9305c9e4d949af585b7223d612e" source="id-8314e1c1c2de4a8f9144fe0cac663288" target="id-78f9502cf5c84a8cb8658f3014e6ed31" archimateRelationship="id-418d1f1b0fe2488e834875ee2ff5c8d7"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-1367e7babbde451fac0fa2bec6fb53b4" source="id-8314e1c1c2de4a8f9144fe0cac663288" target="id-cb2291f9b8404523ba0a3a5b3c99c74e" archimateRelationship="id-9e00b31d2ae9470d9e2f6e3deee78027"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-db51c54367304721b0234d1008a19142" source="id-8314e1c1c2de4a8f9144fe0cac663288" target="id-319229b2b0e24f9291e2e162bd0e0b9f" archimateRelationship="id-48722db4048e4625ab09168c77e20d79"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-78f9502cf5c84a8cb8658f3014e6ed31" targetConnections="id-5e92f9305c9e4d949af585b7223d612e" textPosition="1" archimateElement="id-15b891669f4f49cdbb5cc4f778fdb5b8">
+            <bounds x="373" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Purchase"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-cb2291f9b8404523ba0a3a5b3c99c74e" targetConnections="id-1367e7babbde451fac0fa2bec6fb53b4" textPosition="1" archimateElement="id-e93d2b7a79ec42a3aed1e0b94297411b">
+            <bounds x="25" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Quotation"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-d17b5e7231a3424eb4055b0f8644c296" textAlignment="1">
+            <bounds x="504" y="12" width="185" height="232"/>
+            <feature name="labelExpression" value="The Online Travel Insurance Sales application collaboration aggregates two application components: Quotation and Purchase.&#xA;&#xA;The application collaboration provides an application interface Web Services Interface that serves another application component Travel Website."/>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample1-fr" id="id-d4524a8ab24644b3893f73ba8d97ba04">
+          <child xsi:type="archimate:DiagramObject" id="id-4b2e8f91eb90469db56ee73b689af59c" targetConnections="id-2c4f1584b6124f62a2d9e192514f6389" textPosition="1" archimateElement="id-962ecabe7ce244dabe912e0816afafc1">
+            <bounds x="204" y="24" width="120" height="55"/>
+            <feature name="labelExpression" value="Site web de voyage"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-209ce93c641e48c68fbf01c3f398b79e" targetConnections="id-2aa32144b084424ab6f4e50a14577f7c" textPosition="1" archimateElement="id-1d9d45843a624f9289773ab52a402a68">
+            <bounds x="204" y="105" width="120" height="55"/>
+            <feature name="labelExpression" value="Services d'Interface Web"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-2c4f1584b6124f62a2d9e192514f6389" source="id-209ce93c641e48c68fbf01c3f398b79e" target="id-4b2e8f91eb90469db56ee73b689af59c" archimateRelationship="id-201aea8e96ea4f758dfa937909f311f8"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b09aef0f0d67493ba24f77e5b39c8a47" textPosition="1" archimateElement="id-5623f9cb5ad74c9c9682bdbeb832857b">
+            <bounds x="204" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Ventes d'assurance voyage en ligne"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-428c2d22dc0f40a49212b54e10444493" source="id-b09aef0f0d67493ba24f77e5b39c8a47" target="id-039fb968729c484caef496630c06b749" archimateRelationship="id-418d1f1b0fe2488e834875ee2ff5c8d7"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c78e91fc4f7f4ccfaa86a4b33def8e40" source="id-b09aef0f0d67493ba24f77e5b39c8a47" target="id-04d4192f939d4e63a73419fbc9e12e6d" archimateRelationship="id-9e00b31d2ae9470d9e2f6e3deee78027"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-2aa32144b084424ab6f4e50a14577f7c" source="id-b09aef0f0d67493ba24f77e5b39c8a47" target="id-209ce93c641e48c68fbf01c3f398b79e" archimateRelationship="id-48722db4048e4625ab09168c77e20d79"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-039fb968729c484caef496630c06b749" targetConnections="id-428c2d22dc0f40a49212b54e10444493" textPosition="1" archimateElement="id-15b891669f4f49cdbb5cc4f778fdb5b8">
+            <bounds x="373" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Achat"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-04d4192f939d4e63a73419fbc9e12e6d" targetConnections="id-c78e91fc4f7f4ccfaa86a4b33def8e40" textPosition="1" archimateElement="id-e93d2b7a79ec42a3aed1e0b94297411b">
+            <bounds x="25" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Devis"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-bfb240b517d840c09c10ce52a5d17526" textAlignment="1">
+            <bounds x="504" y="12" width="185" height="232"/>
+            <feature name="labelExpression" value="L'application collaborative Ventes d'assurance voyage en ligne regroupe deux composants applicatifs : Devis et Achat.&#xA;&#xA;L'application collaborative fournit une interface d'application Services d'Interface Web qui dessert un autre composant applicatif Site Web de voyage."/>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample1-es" id="id-44950695de0c4df29b41bba3595c2b2f">
+          <child xsi:type="archimate:DiagramObject" id="id-52c27c8f459d4854a0b84b828e1bc8b3" targetConnections="id-928513009b9840449ba70cb4c67a7259" textPosition="1" archimateElement="id-962ecabe7ce244dabe912e0816afafc1">
+            <bounds x="204" y="24" width="120" height="55"/>
+            <feature name="labelExpression" value="Sitio web de viajes"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-2afef315e01844b8b64f31ceaba08215" targetConnections="id-e055ca0f02674d0bacbb702b9a2b63ee" textPosition="1" archimateElement="id-1d9d45843a624f9289773ab52a402a68">
+            <bounds x="204" y="105" width="120" height="55"/>
+            <feature name="labelExpression" value="Interfaz de aplicación de servicios web"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-928513009b9840449ba70cb4c67a7259" source="id-2afef315e01844b8b64f31ceaba08215" target="id-52c27c8f459d4854a0b84b828e1bc8b3" archimateRelationship="id-201aea8e96ea4f758dfa937909f311f8"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-490ed4a17395427b9309330939d32c9d" textPosition="2" archimateElement="id-5623f9cb5ad74c9c9682bdbeb832857b">
+            <bounds x="204" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Venta de seguros de viaje en línea "/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-439e46dec0bd493096405091d7d5622e" source="id-490ed4a17395427b9309330939d32c9d" target="id-f25c45d80c054e31adee3e2c06fe2730" archimateRelationship="id-418d1f1b0fe2488e834875ee2ff5c8d7"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-bcc8edb5f6c14d849207af1741196263" source="id-490ed4a17395427b9309330939d32c9d" target="id-e91fc231983f468c86461fd34a937f68" archimateRelationship="id-9e00b31d2ae9470d9e2f6e3deee78027"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-e055ca0f02674d0bacbb702b9a2b63ee" source="id-490ed4a17395427b9309330939d32c9d" target="id-2afef315e01844b8b64f31ceaba08215" archimateRelationship="id-48722db4048e4625ab09168c77e20d79"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-f25c45d80c054e31adee3e2c06fe2730" targetConnections="id-439e46dec0bd493096405091d7d5622e" textPosition="1" archimateElement="id-15b891669f4f49cdbb5cc4f778fdb5b8">
+            <bounds x="373" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Compra"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-e91fc231983f468c86461fd34a937f68" targetConnections="id-bcc8edb5f6c14d849207af1741196263" textPosition="1" archimateElement="id-e93d2b7a79ec42a3aed1e0b94297411b">
+            <bounds x="25" y="189" width="120" height="55"/>
+            <feature name="labelExpression" value="Cotización"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-16102075c4544f0aa2b673a13fcf44dc" textAlignment="1">
+            <bounds x="504" y="12" width="185" height="232"/>
+            <feature name="labelExpression" value="La colaboración de aplicaciones de venta de seguros de viaje en línea agrega dos componentes de aplicación: cotización y compra.&#xA;&#xA;La colaboración de aplicaciones proporciona una interfaz de aplicación de servicios web que sirve a otro componente de aplicación, el sitio web de viajes."/>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample2-fr" id="id-0559b172eaf34ebbbb7b72569cad6fe9">
+          <child xsi:type="archimate:DiagramObject" id="id-b424169033474026a208000137079d0d" textPosition="1" archimateElement="id-c9509ca86d724218b967b4eecc71081f">
+            <bounds x="48" y="60" width="120" height="55"/>
+            <feature name="labelExpression" value="Demande de devis"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-3c413f0e86314932a7b4aa8a85f97bb3" source="id-b424169033474026a208000137079d0d" target="id-0081149a27ac4fe2af37d70af1d7a5ef" archimateRelationship="id-189024b757f7421398419125480bbc25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-0081149a27ac4fe2af37d70af1d7a5ef" targetConnections="id-0d6434a0dbd44b27bcc163e0adba93aa id-30a5943c5225401da5aa9d11b7568c32 id-3c413f0e86314932a7b4aa8a85f97bb3" textPosition="1" archimateElement="id-f7f62d6f8ed9448c9136473336dba48c">
+            <bounds x="204" y="60" width="287" height="55"/>
+            <feature name="labelExpression" value="Obtenir une assurance voyage"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-5aa6f611825c455580b28781f34cbf0b" targetConnections="id-1ad65b1b4aa04a3d9c29eab4f8fdcd94" textPosition="1" archimateElement="id-abf3ef610bdb4364bc2e4797238c5ada" type="1">
+            <bounds x="218" y="139" width="120" height="55"/>
+            <feature name="labelExpression" value="Obtenir un devis"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-0d6434a0dbd44b27bcc163e0adba93aa" source="id-5aa6f611825c455580b28781f34cbf0b" target="id-0081149a27ac4fe2af37d70af1d7a5ef" archimateRelationship="id-bd5b56bfc230468890ed24fc6b99ac88"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-64ebb8c5ddd44b57ab8b9c8c896519ce" targetConnections="id-8d7ab96b6d4946be86e63132198ca4ed" textPosition="1" archimateElement="id-7cd6af2a6323449dbb873a18c0c65a64" type="1">
+            <bounds x="360" y="139" width="120" height="55"/>
+            <feature name="labelExpression" value="Souscrire une assurance avec devis"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-30a5943c5225401da5aa9d11b7568c32" source="id-64ebb8c5ddd44b57ab8b9c8c896519ce" target="id-0081149a27ac4fe2af37d70af1d7a5ef" archimateRelationship="id-84a22fc184294013af2694f1694f2aba"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b55686e2a9194256857fc38e1eba7755" archimateElement="id-a48ae5e7fa8d4ccea669e4209ce674bc">
+            <bounds x="204" y="216" width="287" height="109"/>
+            <feature name="labelExpression" value="Souscrire une assurance voyage"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-843d5e145718438aacbe8f34a4321bea" source="id-b55686e2a9194256857fc38e1eba7755" target="id-a07e7cdcc607442592b6587708da7dce" archimateRelationship="id-69c37a68e87b4e24b80972768c28a854"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-ad643f0fbd0747628cda99a3e94c10ed" source="id-b55686e2a9194256857fc38e1eba7755" target="id-94a817118d4d46669e2cdc8c64238c57" archimateRelationship="id-6e6603b97c1d49b795c757385e76940f"/>
+            <child xsi:type="archimate:DiagramObject" id="id-a07e7cdcc607442592b6587708da7dce" targetConnections="id-843d5e145718438aacbe8f34a4321bea" textPosition="1" archimateElement="id-ae14d9795ac946a9a978325466e17153">
+              <bounds x="12" y="36" width="120" height="55"/>
+              <feature name="labelExpression" value="Transfert de devis"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-1ad65b1b4aa04a3d9c29eab4f8fdcd94" source="id-a07e7cdcc607442592b6587708da7dce" target="id-5aa6f611825c455580b28781f34cbf0b" archimateRelationship="id-1379bafad9f64e7692f79503cfeb3554"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-94a817118d4d46669e2cdc8c64238c57" targetConnections="id-ad643f0fbd0747628cda99a3e94c10ed" textPosition="1" archimateElement="id-51bafcc20ef64a9db97f73be72fb35b2">
+              <bounds x="156" y="36" width="120" height="55"/>
+              <feature name="labelExpression" value="Finaliser l'achat"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-8d7ab96b6d4946be86e63132198ca4ed" source="id-94a817118d4d46669e2cdc8c64238c57" target="id-64ebb8c5ddd44b57ab8b9c8c896519ce" archimateRelationship="id-225a4b7a31054b59b5610b503dde4955"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Note" id="id-cd1417914d594854abd412ee82ccc3d1" textAlignment="1">
+            <bounds x="516" y="60" width="265" height="264"/>
+            <feature name="labelExpression" value="La fonction d'affaires Souscrire une assurance voyage est composée de deux autres fonctions d'application :&#xA;Transférer un devis, réalisant un service d'application Obtenir un devis,&#xA;et&#xA;Finaliser l'achat, réalisant un service d'application souscrire une assurance avec devis.&#xA;&#xA;Un événement d'application Demande de devis déclenche un processus d'application Obtenir une assurance voyage, qui est servi par les deux services d'application susmentionnés."/>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample2-es" id="id-cafeaa74b34d4889bd5ea207e59abe61">
+          <child xsi:type="archimate:DiagramObject" id="id-6a4a3ef4c268449d98bf853c828a64af" textPosition="1" archimateElement="id-c9509ca86d724218b967b4eecc71081f">
+            <bounds x="48" y="60" width="120" height="55"/>
+            <feature name="labelExpression" value="Solicitud de Cotización "/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-b4b7314f8a3c4917b1580c1a932a1e76" source="id-6a4a3ef4c268449d98bf853c828a64af" target="id-7784841ffeba45058e9793ffab0cc753" archimateRelationship="id-189024b757f7421398419125480bbc25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-7784841ffeba45058e9793ffab0cc753" targetConnections="id-bc83130b82cc417f8eb148f073c255ca id-05b933d619bf4c80aa962171060aaf22 id-b4b7314f8a3c4917b1580c1a932a1e76" textPosition="1" archimateElement="id-f7f62d6f8ed9448c9136473336dba48c">
+            <bounds x="204" y="60" width="287" height="55"/>
+            <feature name="labelExpression" value="Obtener Seguro de Viaje"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-23c8c019b6a44039ac20026b99dcb9c9" targetConnections="id-a407fb1148af4083acd17dac8942cd33" textPosition="1" archimateElement="id-abf3ef610bdb4364bc2e4797238c5ada" type="1">
+            <bounds x="218" y="139" width="120" height="55"/>
+            <feature name="labelExpression" value="Obtener Cotización"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-bc83130b82cc417f8eb148f073c255ca" source="id-23c8c019b6a44039ac20026b99dcb9c9" target="id-7784841ffeba45058e9793ffab0cc753" archimateRelationship="id-bd5b56bfc230468890ed24fc6b99ac88"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-7ccbae48bea7474ba2158aa883557acd" targetConnections="id-eca510a7ef754b16a2784c2b53efbcf5" textPosition="1" archimateElement="id-7cd6af2a6323449dbb873a18c0c65a64" type="1">
+            <bounds x="360" y="139" width="120" height="55"/>
+            <feature name="labelExpression" value="Comprar Seguro Cotizado"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-05b933d619bf4c80aa962171060aaf22" source="id-7ccbae48bea7474ba2158aa883557acd" target="id-7784841ffeba45058e9793ffab0cc753" archimateRelationship="id-84a22fc184294013af2694f1694f2aba"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-3cddd5024d9341d48b43851807d83e0e" archimateElement="id-a48ae5e7fa8d4ccea669e4209ce674bc">
+            <bounds x="204" y="216" width="287" height="109"/>
+            <feature name="labelExpression" value="Comprar Seguro de Viaje "/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-4e39397fdc8a4b61a5b34b6982328397" source="id-3cddd5024d9341d48b43851807d83e0e" target="id-f1dd7ce01bfa41e38b1dc96f43077485" archimateRelationship="id-69c37a68e87b4e24b80972768c28a854"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-56b924dcff584fd88197fd4eec907f1e" source="id-3cddd5024d9341d48b43851807d83e0e" target="id-99b7bf530d2146e4a77d974f26083137" archimateRelationship="id-6e6603b97c1d49b795c757385e76940f"/>
+            <child xsi:type="archimate:DiagramObject" id="id-f1dd7ce01bfa41e38b1dc96f43077485" targetConnections="id-4e39397fdc8a4b61a5b34b6982328397" textPosition="1" archimateElement="id-ae14d9795ac946a9a978325466e17153">
+              <bounds x="12" y="36" width="120" height="55"/>
+              <feature name="labelExpression" value="Transferir Cotización"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-a407fb1148af4083acd17dac8942cd33" source="id-f1dd7ce01bfa41e38b1dc96f43077485" target="id-23c8c019b6a44039ac20026b99dcb9c9" archimateRelationship="id-1379bafad9f64e7692f79503cfeb3554"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-99b7bf530d2146e4a77d974f26083137" targetConnections="id-56b924dcff584fd88197fd4eec907f1e" textPosition="1" archimateElement="id-51bafcc20ef64a9db97f73be72fb35b2">
+              <bounds x="156" y="36" width="120" height="55"/>
+              <feature name="labelExpression" value="Finalizar Compra"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-eca510a7ef754b16a2784c2b53efbcf5" source="id-99b7bf530d2146e4a77d974f26083137" target="id-7ccbae48bea7474ba2158aa883557acd" archimateRelationship="id-225a4b7a31054b59b5610b503dde4955"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Note" id="id-98e0c3aeae2647578f51ad266e6a79bf" textAlignment="1">
+            <bounds x="516" y="60" width="265" height="264"/>
+            <feature name="labelExpression" value="La función de aplicación Comprar Seguro de Viaje se compone de otras dos funciones de aplicación:&#xA;Transferir Cotización, que realiza un servicio de aplicación Obtener Cotización,&#xA;y&#xA;Finalizar Compra, que realiza un servicio de aplicación Comprar Seguro Cotizado.&#xA;&#xA;Un evento de aplicación Solicitud de Cotización desencadena un proceso de aplicación Obtener Seguro de Viaje, que es atendido por los dos servicios de aplicación antes mencionados."/>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample3-en" id="id-f6f054b37090461a873f2c265c2b9fab">
+          <child xsi:type="archimate:DiagramObject" id="id-47c4a0e01f2d487d9083eec6fc78f64f" targetConnections="id-08fe7e5dcd224d0ca506bd924e6ba3c2 id-1973223ff82440499a2c61df1b3b0e41" textPosition="1" archimateElement="id-dd0289d6e41644a58e76e729b042069c" type="1">
+            <bounds x="12" y="96" width="384" height="127"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-8bd2d69f32b340ebac8dbef139bd1fe8" source="id-47c4a0e01f2d487d9083eec6fc78f64f" target="id-35a6e7fd5666477f995cf5b68f698a07" archimateRelationship="id-e741b26dc9eb494084b613e23ca761c3"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f375b833619b444abd05e4d9ac204c84" source="id-47c4a0e01f2d487d9083eec6fc78f64f" target="id-cfce080526814495accf791d4dbb66bc" archimateRelationship="id-46a5bd8bcec84f1a8bbdea14f85a1700"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-119c44170936405d9bd51307829992c8" source="id-47c4a0e01f2d487d9083eec6fc78f64f" target="id-4a2ba76e3f454646828c505976b8df92" archimateRelationship="id-81c7c607ed09486599e38d957fd9b0b1"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-1e368d0ab37a4f2e87b0ac07e69804b6" textPosition="1" archimateElement="id-335daa059df541739cb229e70107fe59" type="1">
+            <bounds x="444" y="96" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-08fe7e5dcd224d0ca506bd924e6ba3c2" source="id-1e368d0ab37a4f2e87b0ac07e69804b6" target="id-47c4a0e01f2d487d9083eec6fc78f64f" archimateRelationship="id-5f045fa3c666496c82df407ca5005249"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-cfce080526814495accf791d4dbb66bc" targetConnections="id-f375b833619b444abd05e4d9ac204c84" textPosition="1" archimateElement="id-ffba26252c9947989e5926604280a22f" type="1">
+            <bounds x="276" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Certificate of Authenticity"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-0b345e5b3e0b496eafc06b51f7a00f8d" textPosition="1" archimateElement="id-16b59b2823444d0e881865f3f50b757d" type="1">
+            <bounds x="444" y="168" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-1973223ff82440499a2c61df1b3b0e41" source="id-0b345e5b3e0b496eafc06b51f7a00f8d" target="id-47c4a0e01f2d487d9083eec6fc78f64f" archimateRelationship="id-749c5018f624477bb6a2db0c301625f5"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f6da1531a0c34bcfa829499fc027a8ae" source="id-0b345e5b3e0b496eafc06b51f7a00f8d" target="id-4699736fc9b34fe583a0e9f56cb6f505" archimateRelationship="id-9665a95c57d0474db1fc532c04878718"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-35a6e7fd5666477f995cf5b68f698a07" targetConnections="id-8bd2d69f32b340ebac8dbef139bd1fe8" textPosition="1" archimateElement="id-e6417e41855d49af837045071408c5c1" type="1">
+            <bounds x="144" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Terms and conditions"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-4699736fc9b34fe583a0e9f56cb6f505" targetConnections="id-f6da1531a0c34bcfa829499fc027a8ae" textPosition="1" archimateElement="id-6041800382494266ba2fb0404f127b23" type="1">
+            <bounds x="444" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Purchased Itinerary"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-4a2ba76e3f454646828c505976b8df92" targetConnections="id-119c44170936405d9bd51307829992c8" textPosition="1" archimateElement="id-4698a928ca4f4de7bba11a31bc72e889" type="1">
+            <bounds x="12" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Quoted Price"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-b25b54fd71384eeea01f43b1eb35b23b" textAlignment="1">
+            <bounds x="588" y="96" width="217" height="223"/>
+            <feature name="labelExpression" value="An Online Insurance Quotation data object is composed of three other data objects: Quoted Price, Terms and Conditions, and Certificate of Authenticity. &#xA;&#xA;Auto Insurance Quotation and Travel Insurance Quotation are two specializations of the Online Insurance Quotation data object.&#xA;&#xA;Travel Insurance Quotation contains an additional data object Purchased Itinerary"/>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample3-fr" id="id-67537f8ca80b46f090cdff74aa367220">
+          <child xsi:type="archimate:DiagramObject" id="id-6918c840d0b342ed9c921a8888381b81" targetConnections="id-5ad27e4f3b7544d5b81366cddf339169 id-6673f6806d964b7185f236e1a152dd89" textPosition="1" archimateElement="id-dd0289d6e41644a58e76e729b042069c" type="1">
+            <bounds x="12" y="96" width="384" height="127"/>
+            <feature name="labelExpression" value="Devis d'assurance en ligne"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-1c94f3b4d1524cae869ae07030194c26" source="id-6918c840d0b342ed9c921a8888381b81" target="id-bb4f296f01a541d984ff3704a270bcd3" archimateRelationship="id-e741b26dc9eb494084b613e23ca761c3"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f1f801b4acf6491d9e405844dd7e8aa5" source="id-6918c840d0b342ed9c921a8888381b81" target="id-33c5f3fb9a8c47a391745b4f8e533376" archimateRelationship="id-46a5bd8bcec84f1a8bbdea14f85a1700"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-d8d5d7943f6f4316845774d379dfa7c9" source="id-6918c840d0b342ed9c921a8888381b81" target="id-18a25df7d26e4b2aa7e95e2275a1dee3" archimateRelationship="id-81c7c607ed09486599e38d957fd9b0b1"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-1adf690796f74c6c8d92df9581a9cc09" textPosition="1" archimateElement="id-335daa059df541739cb229e70107fe59" type="1">
+            <bounds x="444" y="96" width="120" height="55"/>
+            <feature name="labelExpression" value="Devis d'assurance automobile"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-5ad27e4f3b7544d5b81366cddf339169" source="id-1adf690796f74c6c8d92df9581a9cc09" target="id-6918c840d0b342ed9c921a8888381b81" archimateRelationship="id-5f045fa3c666496c82df407ca5005249"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-33c5f3fb9a8c47a391745b4f8e533376" targetConnections="id-f1f801b4acf6491d9e405844dd7e8aa5" textPosition="1" archimateElement="id-ffba26252c9947989e5926604280a22f" type="1">
+            <bounds x="276" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Certificat d'authenticité"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-817a1fec71f142398d1c9f5399ae46eb" textPosition="1" archimateElement="id-16b59b2823444d0e881865f3f50b757d" type="1">
+            <bounds x="444" y="168" width="120" height="55"/>
+            <feature name="labelExpression" value="Devis d'assurance voyage"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-6673f6806d964b7185f236e1a152dd89" source="id-817a1fec71f142398d1c9f5399ae46eb" target="id-6918c840d0b342ed9c921a8888381b81" archimateRelationship="id-749c5018f624477bb6a2db0c301625f5"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f5e69d2bf9864fcab8925c8daa5405dc" source="id-817a1fec71f142398d1c9f5399ae46eb" target="id-67297213be1140d29b96bc5d012c1005" archimateRelationship="id-9665a95c57d0474db1fc532c04878718"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-bb4f296f01a541d984ff3704a270bcd3" targetConnections="id-1c94f3b4d1524cae869ae07030194c26" textPosition="1" archimateElement="id-e6417e41855d49af837045071408c5c1" type="1">
+            <bounds x="144" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Conditions générale"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-67297213be1140d29b96bc5d012c1005" targetConnections="id-f5e69d2bf9864fcab8925c8daa5405dc" textPosition="1" archimateElement="id-6041800382494266ba2fb0404f127b23" type="1">
+            <bounds x="444" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Itinéraire acheté"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-18a25df7d26e4b2aa7e95e2275a1dee3" targetConnections="id-d8d5d7943f6f4316845774d379dfa7c9" textPosition="1" archimateElement="id-4698a928ca4f4de7bba11a31bc72e889" type="1">
+            <bounds x="12" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value=" Prix proposé"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-3c69939e519f4529925d12b392ec8727" textAlignment="1">
+            <bounds x="588" y="84" width="217" height="265"/>
+            <feature name="labelExpression" value="Un objet de données Devis d'assurance en ligne est composé de trois autres objets de données : Prix proposé, Conditions générales et Certificat d'authenticité.&#xA;&#xA;Devis d'assurance automobile et Devis d'assurance voyage sont deux spécialisations de l'objet de données Devis d'assurance en ligne.&#xA;&#xA;Devis d'assurance voyage contient un objet de données supplémentaire, Itinéraire acheté"/>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="appExample3-es" id="id-caa66e53612b4f1d998a67856f662ea3">
+          <child xsi:type="archimate:DiagramObject" id="id-bf10b521395d41318482b10a510a3722" targetConnections="id-c46e3d128cc34f5490921aa2dff1740b id-936280aa10604e1b9136620bb3ccfc20" textPosition="1" archimateElement="id-dd0289d6e41644a58e76e729b042069c" type="1">
+            <bounds x="12" y="84" width="384" height="127"/>
+            <feature name="labelExpression" value="Cotización de seguro en línea "/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-1fd46456004746b2a249ab6dae8ba7b0" source="id-bf10b521395d41318482b10a510a3722" target="id-27d3e4e4297a4a82ab95940f6182ee65" archimateRelationship="id-e741b26dc9eb494084b613e23ca761c3"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-ea9dfe074c794f699a88e405ec2f6376" source="id-bf10b521395d41318482b10a510a3722" target="id-59c1b78e544940d390b85a4ea11faa5c" archimateRelationship="id-46a5bd8bcec84f1a8bbdea14f85a1700"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-e824c55b5b7b4f2282abcdba2779c72b" source="id-bf10b521395d41318482b10a510a3722" target="id-b3fbe51380c7445a8c64eab0aad374be" archimateRelationship="id-81c7c607ed09486599e38d957fd9b0b1"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-65fcea2dd15b47049d8c03458c65a4d7" textPosition="1" archimateElement="id-335daa059df541739cb229e70107fe59" type="1">
+            <bounds x="444" y="84" width="120" height="67"/>
+            <feature name="labelExpression" value="Cotización de seguro de automóvi"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c46e3d128cc34f5490921aa2dff1740b" source="id-65fcea2dd15b47049d8c03458c65a4d7" target="id-bf10b521395d41318482b10a510a3722" archimateRelationship="id-5f045fa3c666496c82df407ca5005249"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-59c1b78e544940d390b85a4ea11faa5c" targetConnections="id-ea9dfe074c794f699a88e405ec2f6376" textPosition="1" archimateElement="id-ffba26252c9947989e5926604280a22f" type="1">
+            <bounds x="276" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Certificado de autenticidad."/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-89e60928b6de4de99ee33c325ed44e8c" textPosition="1" archimateElement="id-16b59b2823444d0e881865f3f50b757d" type="1">
+            <bounds x="444" y="168" width="120" height="55"/>
+            <feature name="labelExpression" value="Cotización de seguro de viaje "/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-936280aa10604e1b9136620bb3ccfc20" source="id-89e60928b6de4de99ee33c325ed44e8c" target="id-bf10b521395d41318482b10a510a3722" archimateRelationship="id-749c5018f624477bb6a2db0c301625f5"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-6c881cb5dc1945809ba58c2d2676f5b6" source="id-89e60928b6de4de99ee33c325ed44e8c" target="id-3cd1939fd948490088200b7787676096" archimateRelationship="id-9665a95c57d0474db1fc532c04878718"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-27d3e4e4297a4a82ab95940f6182ee65" targetConnections="id-1fd46456004746b2a249ab6dae8ba7b0" textPosition="1" archimateElement="id-e6417e41855d49af837045071408c5c1" type="1">
+            <bounds x="144" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Términos y condiciones"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-3cd1939fd948490088200b7787676096" targetConnections="id-6c881cb5dc1945809ba58c2d2676f5b6" textPosition="1" archimateElement="id-6041800382494266ba2fb0404f127b23" type="1">
+            <bounds x="444" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Itinerario comprado"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b3fbe51380c7445a8c64eab0aad374be" targetConnections="id-e824c55b5b7b4f2282abcdba2779c72b" textPosition="1" archimateElement="id-4698a928ca4f4de7bba11a31bc72e889" type="1">
+            <bounds x="12" y="264" width="120" height="55"/>
+            <feature name="labelExpression" value="Precio cotizado"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-4ed53487814e4b4fa1c30a1c88b0fbab" textAlignment="1">
+            <bounds x="588" y="84" width="217" height="235"/>
+            <feature name="labelExpression" value="Un objeto de datos de cotización de seguro en línea se compone de otros tres objetos de datos: precio cotizado, términos y condiciones y certificado de autenticidad.&#xA;&#xA;La cotización de seguro de automóvil y la cotización de seguro de viaje son dos especializaciones del objeto de datos de cotización de seguro en línea.&#xA;&#xA;La cotización de seguro de viaje contiene un objeto de datos adicional, itinerario comprado"/>
+          </child>
+        </element>
       </folder>
     </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" name="ARCHI 3.2 Reference Cards en model" id="id-89fced48400d4cce98d74a4afde83711">
