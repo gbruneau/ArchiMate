@@ -152,7 +152,6 @@
   "techd11" : "Technology even: Represents a technology state change.",
   "techd12" : "Technology service: Represents an explicitly defined exposed technology behavior. ",
   "techd13" : "Represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.",
-  "techd14" : "Data Object: Represents a data structure.",
 
 
   "phy" : "Physical Elements",

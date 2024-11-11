@@ -155,7 +155,6 @@
   "techd11": "Événement Technologique (Technology Event): Représente un changement d'état technologique.",
   "techd12": "Service Technologique (Technology Service): Représente un comportement technologique exposé explicitement défini.",
   "techd13": "Artéfact (Artifact): Représente une pièce de données utilisée ou produite dans un processus de développement logiciel, ou par le déploiement et le fonctionnement d'un système informatique.",
-  "techd14": "Objet de Données (Data Object): Représente une structure de données.",
 
   "phy" : "Physique",
   "phyc1": "Section",

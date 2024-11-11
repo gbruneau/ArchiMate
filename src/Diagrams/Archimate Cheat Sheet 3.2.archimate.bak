@@ -143,6 +143,8 @@
       <documentation>DriveeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeWll and Saveeeeeeeeagrement</documentation>
     </element>
     <element xsi:type="archimate:BusinessService" name="Buena conducción y ahorro" id="id-34ec11b8130143e189a95887dee6aa67"/>
+    <element xsi:type="archimate:BusinessService" name="Business Service" id="id-04c4c73980ff4e8fa9a9ad26bdcad5c1"/>
+    <element xsi:type="archimate:BusinessObject" name="Business Object" id="id-31311f737f934060be3e4439a0aa518b"/>
   </folder>
   <folder name="Application" id="id-6dc869d2b5e141e9a618e143307b5999" type="application">
     <folder name="Achimate Reference" id="id-ea7c6f8d1c894863b4d4667555145797">
@@ -232,6 +234,9 @@
       <documentation>Purchased Itinerary</documentation>
     </element>
     <element xsi:type="archimate:DataObject" name="Data Object" id="id-4698a928ca4f4de7bba11a31bc72e889"/>
+    <element xsi:type="archimate:DataObject" name="Online Insurance Quotation (copy)" id="id-f15a192626a646eba20abf4eeebe8c98">
+      <documentation>Online Insurance Quotation</documentation>
+    </element>
   </folder>
   <folder name="Technology &amp; Physical" id="id-dec9a84905104c3e9d8ca4f256506147" type="technology">
     <folder name="Archimate Reference" id="id-c9cb0325c04e4e06a39201148c6991f4">

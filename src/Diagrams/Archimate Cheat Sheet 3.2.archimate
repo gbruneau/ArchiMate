@@ -275,6 +275,24 @@
       <element xsi:type="archimate:TechnologyService" name="Technology Service" id="id-2ee47eed71c247e18df103794429b90f"/>
       <element xsi:type="archimate:TechnologyService" id="id-689476cb28514177ae00aec36bdf5a73"/>
     </folder>
+    <element xsi:type="archimate:Node" name="Node" id="id-96a6d8f749aa4f399437888b86d2a303"/>
+    <element xsi:type="archimate:SystemSoftware" name="Device" id="id-6b660fd8fb38422e8c5dba00bc508c8b"/>
+    <element xsi:type="archimate:TechnologyCollaboration" name="Technology Collaboration" id="id-23c72de1b0d94e36bbff5868c9ad998f"/>
+    <element xsi:type="archimate:TechnologyInterface" name="Technology Interface" id="id-e398748b70fc4c3dad58bf791c314b00"/>
+    <element xsi:type="archimate:Device" name="Dispositif" id="id-5963dbfa019c45b2b3323299bdac0ad2"/>
+    <element xsi:type="archimate:Path" name="Path" id="id-548d87dbd7394044ad1107520bf04469"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Communication Network" id="id-e84e98a03e2849219ba8b85a699b4685"/>
+    <element xsi:type="archimate:TechnologyFunction" name="Technology Function" id="id-82af626b7c02432486833bd683c9af83"/>
+    <element xsi:type="archimate:TechnologyProcess" name="Technology Process" id="id-9cb94442fc4b4add8ec569e76fae63fb"/>
+    <element xsi:type="archimate:TechnologyInteraction" name="Technology Interaction" id="id-6fcddd66850c4125aff7fd57f1c35025"/>
+    <element xsi:type="archimate:TechnologyEvent" name="Technology Event" id="id-b638127e2642478897e3e921870a2eec"/>
+    <element xsi:type="archimate:TechnologyService" name="Technology Service" id="id-458856cdca174e91b8c210b86ff57159"/>
+    <element xsi:type="archimate:Artifact" name="Artifact" id="id-cbd77ab815eb4e7a8f5d2678b5689220"/>
+    <element xsi:type="archimate:Equipment" name="Equipment" id="id-d8d1103b35464f93960feebddd3ef690"/>
+    <element xsi:type="archimate:Facility" name="Facility" id="id-7366a410735d4e76964022ad09d41f31"/>
+    <element xsi:type="archimate:Facility" name="Facility" id="id-b95a2fb1304a477e862b85c8183af889"/>
+    <element xsi:type="archimate:DistributionNetwork" name="Distribution Network" id="id-117addd44d144acfb4a93e25a2df5c16"/>
+    <element xsi:type="archimate:Material" name="Material" id="id-c30c85c38db94a5a9f325e5fc88ae458"/>
   </folder>
   <folder name="Motivation" id="id-5b44dcd945914af0bd032d3087b9e9e5" type="motivation">
     <folder name="Achimate Reference" id="id-4388168a9e73405092ce93f234aab7a9">
@@ -7191,9 +7209,9 @@ implementation process, or its realization.</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="tmp" id="id-80dc17a71f48461a82167f0ae22a3f91">
-      <child xsi:type="archimate:DiagramObject" id="id-4c3090fb0f004c309ccf96efa613f1c4" textPosition="1" archimateElement="id-69f3e84929d94755bc649c551d03219d">
-        <bounds x="264" y="168" width="120" height="55"/>
-        <feature name="labelExpression" value="Objeto de datos"/>
+      <child xsi:type="archimate:DiagramObject" id="id-804e8cfafffa478eabf55576b626272a" textPosition="1" archimateElement="id-c30c85c38db94a5a9f325e5fc88ae458">
+        <bounds x="318" y="369" width="120" height="55"/>
+        <feature name="labelExpression" value="Matériel"/>
       </child>
     </element>
   </folder>
