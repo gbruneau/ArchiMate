@@ -7,7 +7,8 @@
     "http-server": "^14.0.0"
   },
   "scripts": {
-    "serve": "http-server src -p 8081"
+    "serve": "http-server src -p 8081",
+    "deploy": "rm -r  ../gbruneau.github.io/ArchiMate/;cp -R src/ ../gbruneau.github.io/ArchiMate/"
   },
   "repository": {
     "type": "git",

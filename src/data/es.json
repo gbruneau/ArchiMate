@@ -77,7 +77,6 @@
   "strad1": "Recurso (Resource): Representa un activo propiedad o controlado por un individuo u organización.",
   "strad2": "Capacidad (Capability): Representa una habilidad que posee un elemento de estructura activa, como una organización, persona o sistema.",
   "strad3": "Curso de acción (Course of action): Representa un enfoque o plan para configurar algunas capacidades y recursos de la empresa, realizado para alcanzar un objetivo.",
-  "strad4": "Ubicación (Location): Representa un lugar físico.",
   "strad5" : "Flujo de valor: Representa una secuencia de actividades que crean un resultado general para un cliente, una parte interesada o un usuario final.",
 
   "busi": "Negocios",
@@ -99,15 +98,15 @@
   "busia3": "Colaboración de Negocio (Business Collaboration): Representa un conjunto de dos o más elementos activos internos de negocios que trabajan juntos para llevar a cabo un comportamiento colectivo.",
   "busia4": "Interfaz de Negocio (Business Interface): Representa un punto de acceso donde un servicio de negocios está disponible para el entorno.",
 
-  "busid1": "Proceso Empresarial: Representa una secuencia de comportamientos empresariales que logra un resultado específico, como un conjunto definido de productos o servicios empresariales.",
-  "busid2": "Función Empresarial: Representa una colección de comportamientos empresariales basada en un conjunto elegido de criterios (típicamente recursos y/o com",
-  "busid3": "Interacción Empresarial: Representa una unidad de comportamiento empresarial colectivo realizado por (una colaboración de) dos o más actores empresariales, roles empresariales o colaboraciones empresariales.",
-  "busid4": "Evento Empresarial: Representa un cambio de estado organizativo.",
-  "busid5": "Servicio Empresarial: Representa un comportamiento explícitamente definido que un rol empresarial, actor empresarial o colaboración empresarial expone a su entorno.",
-  "busid6": "Objeto Empresarial: Representa un concepto utilizado dentro de un dominio empresarial particular.",
-  "busid7": "Contrato: Representa una especificación formal o informal de un acuerdo entre un proveedor y un consumidor que especifica los derechos y obligaciones asociados con un producto y establece parámetros funcionales y no funcionales para la interacción.",
-  "busid8": "Representación: Representa una forma perceptible de la información llevada por un objeto empresarial.",
-  "busid9": "Producto: Representa un conjunto coherente de servicios y/o elementos de estructura pasiva, acompañado de un contrato, que se ofrece en su conjunto a clientes (internos o externos).",
+  "busid1": "Proceso de Negocio (Business Process): Representa una secuencia de comportamientos empresariales que logra un resultado específico, como un conjunto definido de productos o servicios empresariales.",
+  "busid2": "Función de Negocio (Business function): Representa una colección de comportamientos empresariales basada en un conjunto elegido de criterios (típicamente recursos y/o com",
+  "busid3": "Interacción Empresarial (Business interraction): Representa una unidad de comportamiento empresarial colectivo realizado por (una colaboración de) dos o más actores empresariales, roles empresariales o colaboraciones empresariales.",
+  "busid4": "Evento de Negocio (Business Event)) : Representa un cambio de estado organizativo.",
+  "busid5": "Servicio Empresarial (Business Service): Representa un comportamiento explícitamente definido que un rol empresarial, actor empresarial o colaboración empresarial expone a su entorno.",
+  "busid6": "Objeto Empresarial (Business Object): Representa un concepto utilizado dentro de un dominio empresarial particular.",
+  "busid7": "Contrato (Contract): Representa una especificación formal o informal de un acuerdo entre un proveedor y un consumidor que especifica los derechos y obligaciones asociados con un producto y establece parámetros funcionales y no funcionales para la interacción.",
+  "busid8": "Representación (Representation): Representa una forma perceptible de la información llevada por un objeto empresarial.",
+  "busid9": "Producto (Product): Representa un conjunto coherente de servicios y/o elementos de estructura pasiva, acompañado de un contrato, que se ofrece en su conjunto a clientes (internos o externos).",
 
    "app": "Aplicación",
    "appc1": "Sección",
@@ -151,8 +150,7 @@
   "techd10": "Interacción Tecnológica: Representa una unidad de comportamiento tecnológico colectivo realizado por (una colaboración de) dos o más nodos.",
   "techd11": "Evento Tecnológico: Representa un cambio de estado tecnológico.",
   "techd12": "Servicio Tecnológico: Representa un comportamiento tecnológico expuesto explícitamente definido.",
-  "techd13": "Objeto de Datos: Representa una pieza de datos que se utiliza o se produce en un proceso de desarrollo de software, o mediante el despliegue y operación de un sistema de tecnologías de la información.",
-  "techd14": "Objeto de Datos: Representa una estructura de datos.",
+  "techd13": "Artefacto: Representa una pieza de datos que se utiliza o se produce en un proceso de desarrollo de software, o mediante el despliegue y operación de un sistema de tecnologías de la información.",
 
   
   "phy": "Física",
@@ -180,6 +178,17 @@
   "impd4": "Nivel: Representa un estado relativamente estable de la arquitectura que existe durante un período limitado.",
   "impd5": "Brecha: Representa una declaración de diferencia entre dos niveles.",
   
+  "oth" : "Otro",
+  "othr1" : "Elementos Compuestos",
+  "othc1" : "Sección",
+  "othc2" : "Ícono",
+  "othc3" : "Ejemplo de Elementos Compuestos",
+
+  "othd1": "Ubicación (Location): Representa un lugar o posición conceptual o física donde se ubican los conceptos (por ejemplo, elementos de estructura) o se realizan (por ejemplo, elementos de comportamiento).",
+  "othd2" : "Agrupador (Grouping): El elemento agrupador agrega o compone conceptos que pertenecen juntos en función de alguna característica común.",
+  
+  "othe1" : "Ubicación y Agrupador",
+
   "about": "Acerca de A3CC"
 
 

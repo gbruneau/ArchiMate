@@ -118,11 +118,11 @@ body {
 
 #techLayer, #phyLayer  {
     text-shadow: 0px 0px 4px black;
-    color: #afffaf;
+    color: c9e7b7;
 }
 
 #techLayerContent, #phyLayerContent  {
-    background-color: #afffaf;
+    background-color: #c9e7b7;
 }
 
 
@@ -134,6 +134,13 @@ body {
 #impLayerContent {
     background-color: #ffe0e0;
 }
+
+
+#otherContent {
+    background-color: #eeeeee;
+}
+
+
 
 /*  === Elements inside the layer === */
 
@@ -388,7 +395,7 @@ border: 1px solid #000;
 }
 
 #tTech , #tPhy {
-    background: #afffaf;
+    background: #c9e7b7;
 }
 
 #tImp {

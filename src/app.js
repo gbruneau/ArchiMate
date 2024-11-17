@@ -27,7 +27,7 @@ $(function () {
     $(".gbDialog").dialog(
       {
         autoOpen: false,
-        minWidth: 500,
+        minWidth: 700,
         position: {
           my: "top",
           at: "center top"
@@ -110,10 +110,10 @@ $(function () {
 });
 
 function updateLanguage() {
-  var lang = $('#langSelector').val();
+  var selectedLang = $('#langSelector').val();
 
   // Load t9ntable from a JSON file based on the selected language
-  $.getJSON('data/' + lang + '.json', function(t9ntable) {
+  $.getJSON('data/' + selectedLang + '.json', function(t9ntable) {
     // t9ntable is now populated with the data from the JSON file
 
     // Loop through all elements with data-t9n attribute
@@ -129,6 +129,20 @@ function updateLanguage() {
       $(this).prop('title',t9ntable[key] || ''); // Use empty string if translation is not available
     });
 
+      
+    /* Translate images including zoomed images */
+    $('[data-t9n-img]').each(function () {
+      var imgBaseFileName =  $(this).data('t9n-img');
+      var imgFileName = `images/${selectedLang}/${imgBaseFileName}-${selectedLang}.png`
+      $(this).prop('src',imgFileName ); // Use empty string if translation is not available
+      var zommImg=$(this).next().find('img:first')
+      if (zommImg!==null){
+        $(zommImg).prop('src',imgFileName ); // Use empty string if translation is not available
+      }
+    });
+
+
+
   });
 }
 
@@ -142,8 +156,6 @@ $(document).ready(function () {
         value: language.code,
         text: language.name
       }));
-
-      console.log(`Langue: ${language.name}`)
       var sl="";
       $.each(language.contributors,function(index,contrib){
         sl+=`<a target="_blank" href="${contrib.url}">${contrib.translator}</a>&nbsp;`

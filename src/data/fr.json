@@ -22,7 +22,7 @@
   "relt6": "Réalise : Représente qu'une entité joue un rôle crucial dans la création, la réalisation, le maintien ou le fonctionnement d'une entité plus abstraite. L'interprétation d'une relation de réalisation est que la totalité ou une partie de l'élément source réalise la totalité de l'élément cible. Cela signifie que si, par exemple, deux éléments de comportement internes ont une relation de réalisation avec le même service, l'un ou l'autre peut réaliser le service complet. Si les deux éléments de comportement internes sont nécessaires pour réaliser, l'élément de regroupement ou une jonction 'et' peut être utilisé. Pour des types d'effets plus faibles sur la réalisation d'un élément de motivation, la relation d'influence devrait être utilisée.",
   "relt6n": "Réalisation",
   "relt7": "Influence : Représente qu'un élément affecte la mise en œuvre ou la réalisation d'un élément de motivation. La relation d'influence est utilisée pour décrire certains éléments architecturaux qui influent sur la réalisation ou la mise en œuvre d'un élément de motivation, tel qu'un objectif ou un principe. En général, un élément de motivation est réalisé à un certain degré.",
-  "relt7n": "Réalisation",
+  "relt7n": "Influence",
   "relt8": "Relation d’Association: Représente une relation non spécifiée, ou qui n’est pas représentable par une autre relation ArchiMate.",
   "relt8n": "Association",
   "relt9": "Déclenche : Représente une relation temporelle ou causale entre des éléments. La relation de déclenchement est utilisée pour modéliser la précédence temporelle ou causale des éléments de comportement dans un processus. L'interprétation d'une relation de déclenchement est qu'une partie de l'élément source doit être terminée avant que l'élément cible puisse commencer.",
@@ -51,8 +51,8 @@
   "motic3": "Exemples de l'aspect motivations",
   "motir1": "Éléments",
   "motie1": "Partie prenante (Stakeholder) : Représente le rôle d'un individu, d'une équipe ou d'une organisation (ou de classes correspondantes) qui défend leurs intérêts dans les effets de l'architecture.",
-  "motie2": "Moteur (Driver) : Représente une condition externe ou interne qui pousse une organisation à définir ses objectifs et à mettre en œuvre les changements nécessaires pour les atteindre.",
-  "motie3": "Évaluation (Assessment): Représente le résultat d'une analyse de l'état des affaires de l'entreprise par rapport à un moteur.",
+  "motie2": "Déclencheur (Driver) : Représente une condition externe ou interne qui pousse une organisation à définir ses objectifs et à mettre en œuvre les changements nécessaires pour les atteindre.",
+  "motie3": "Diagnostic (Assessment): Représente le résultat d'une analyse de l'état des affaires de l'entreprise par rapport à un moteur.",
   "motie4": "But (Goal): Représente une déclaration de haut niveau d'intention, de direction ou d'état final souhaité pour une organisation et ses intervenants.",
   "motie5": "Résultat (Outcome): Représente un résultat final, un effet ou une conséquence d’un certain état de fait.",
   "motie6": "Principe (Principle): Représente une déclaration d'intention définissant une propriété générale qui s'applique à tout système dans un certain contexte dans l'architecture.",
@@ -61,7 +61,7 @@
   "motie9": "Signification (Meaning): Représente la connaissance ou l'expertise présente dans, ou l'interprétation donnée à, un concept dans un contexte particulier.",
   "motie10": "Valeur (Value): Représente la valeur relative, l'utilité ou l'importance d'un concept.",
   "motiex1": "Partie prenante, Déclencheurt et Diagnostic",
-  "motiex2": "Objectif, Résultat, Principe, Exigence et Contrainte",
+  "motiex2": "But, Résultat, Principe, Exigence et Contrainte",
   "motiex3": "Signification et Valeur",
 
 
@@ -77,8 +77,7 @@
   "strad1": "Ressource (Resource): Représente un actif détenu ou contrôlé par un individu ou une organisation.",
   "strad2": "Capacité (Capability): Représente une capacité qu'un élément de structure actif, tel qu'une organisation, une personne ou un système, possède.",
   "strad3": "Plan d'action/Feuille de route (Course of action): Représente une approche ou un plan de configuration de certaines capacités et ressources de l'entreprise, entrepris pour atteindre un objectif.",
-  "strad4": "Emplacement (Location): Représente un emplacement physique.",
-  "strad5" : "Flux de valeur: Représente une séquence d’activités qui créent un résultat global pour un client, une partie prenante ou un utilisateur final.",
+  "strad5" : "Flux de valeur (Value Stream): Représente une séquence d’activités qui créent un résultat global pour un client, une partie prenante ou un utilisateur final.",
 
   "busi" : "Affaires",
   "busic1": "Section",
@@ -94,18 +93,18 @@
   "busie3": "Éléments Passifs de Structure d'Affaires",
   "busie4": "Élément Composite d'Affaires: Produit",
 
-  "busia1": "Acteur d'Affaires (Business Actor): Représente une entité commerciale capable d'effectuer un comportement.",
-  "busia2": "Rôle d'Affaires (Business Role): Représente la responsabilité d'effectuer un comportement spécifique, à laquelle un acteur peut être assigné, ou la part qu'un acteur joue dans une action ou un événement particulier.",
-  "busia3": "Collaboration d'Affaires (Business Collaboration) : Représente un ensemble de deux ou plusieurs éléments actifs internes d'affaires qui travaillent ensemble pour effectuer un comportement collectif.",
-  "busia4": "Interface d'Affaires (Business Interface): Représente un point d'accès où un service d'affaires est mis à disposition de l'environnement.",
+  "busia1": "Acteur d'Affaires / Acteur Métier (Business Actor): Représente une entité commerciale capable d'effectuer un comportement.",
+  "busia2": "Rôle d'Affaires  / Rôle Métier(Business Role): Représente la responsabilité d'effectuer un comportement spécifique, à laquelle un acteur peut être assigné, ou la part qu'un acteur joue dans une action ou un événement particulier.",
+  "busia3": "Collaboration d'Affaires /Collaboration Métier (Business Collaboration) : Représente un ensemble de deux ou plusieurs éléments actifs internes d'affaires qui travaillent ensemble pour effectuer un comportement collectif.",
+  "busia4": "Interface d'Affaires / Collaboration Métier (Business Interface): Représente un point d'accès où un service d'affaires est mis à disposition de l'environnement.",
 
 
-  "busid1": "Processus d'Affaires (Business Process): Représente une séquence de comportements d'affaires qui permet d'obtenir un résultat spécifique, comme un ensemble défini de produits ou de services d'Affaires.",
-  "busid2": "Fonction d'Affaires (Business Function): Représente un ensemble de comportements d'affaire basés sur un ensemble choisi de critères tels que les ressources et/ou les compétences commerciales requises, et est gérée ou exécutée dans son ensemble.",
-  "busid3": "Interaction d'Affaires (Business Interaction): Représente une unité de comportement d'affaires collective effectuée par (une collaboration de) deux ou plusieurs acteurs d'affaires, rôles d'affaires ou collaborations d'affaires.",
+  "busid1": "Processus d'Affaires / Processus Métier (Business Process): Représente une séquence de comportements d'affaires qui permet d'obtenir un résultat spécifique, comme un ensemble défini de produits ou de services d'Affaires.",
+  "busid2": "Fonction d'Affaires / Fonction Métier (Business Function): Représente un ensemble de comportements d'affaire basés sur un ensemble choisi de critères tels que les ressources et/ou les compétences commerciales requises, et est gérée ou exécutée dans son ensemble.",
+  "busid3": "Interaction d'Affaires / Interaction Métier (Business Interaction): Représente une unité de comportement d'affaires collective effectuée par (une collaboration de) deux ou plusieurs acteurs d'affaires, rôles d'affaires ou collaborations d'affaires.",
   "busid4": "Événement d'Affaires (Business Event): Représente un changement d'état organisationnel.",
-  "busid5": "Service d'Affaires : Représente un comportement explicitement défini qu'un rôle d'affaires, un acteur d'affaires ou une collaboration d'affaires expose à son environnement.",
-  "busid6": "Objet d'Affaires (Business Object): Représente un concept utilisé dans un domaine d'affaires particulier.",
+  "busid5": "Service d'Affaires / Service Métier : Représente un comportement explicitement défini qu'un rôle d'affaires, un acteur d'affaires ou une collaboration d'affaires expose à son environnement.",
+  "busid6": "Objet d'Affaires / Objet Métier (Business Object): Représente un concept utilisé dans un domaine d'affaires particulier.",
   "busid7": "Contrat (Contract): Représente une spécification formelle ou informelle d'un accord entre un fournisseur et un consommateur qui spécifie les droits et obligations associés à un produit et établit des paramètres fonctionnels et non fonctionnels pour l'interaction.",
   "busid8": "Représentation (Representation): Représente une forme perceptible de l'information portée par un objet d'affaires.",
   "busid9": "Produit (Product): Représente un ensemble cohérent de services et/ou d’éléments de structure passive, accompagné d’un contrat, qui est proposé dans son ensemble à des clients (internes ou externes).",
@@ -114,7 +113,7 @@
   "app" : "Applicative", 
   "appc1": "Section",
   "appc2" : "Icône",
-  "appc3" : "Exemples couche affaires",
+  "appc3" : "Exemples couche applicative",
   "appr1": "Structure<br>Active",
   "appr2": "Élément<br>de<br>Comportement",
   "appr3": "Élément<br>de<br>Structure<br>Passive",
@@ -156,7 +155,6 @@
   "techd11": "Événement Technologique (Technology Event): Représente un changement d'état technologique.",
   "techd12": "Service Technologique (Technology Service): Représente un comportement technologique exposé explicitement défini.",
   "techd13": "Artéfact (Artifact): Représente une pièce de données utilisée ou produite dans un processus de développement logiciel, ou par le déploiement et le fonctionnement d'un système informatique.",
-  "techd14": "Objet de Données (Data Object): Représente une structure de données.",
 
   "phy" : "Physique",
   "phyc1": "Section",
@@ -184,6 +182,15 @@
   "impd4": "Plateau (Plateau): Représente un état relativement stable de l'architecture qui existe pendant une période limitée.",
   "impd5": "Écart (Gap): Représente une déclaration de différences entre deux plateaux.",
   
+  "oth" : "Autre",
+  "othr1" : "Éléments Composites",
+  "othc1" : "Section",
+  "othc2" : "Icône",
+  "othc3" : "Exemples Éléments composites",
+  "othd1": "Emplacement (Location): Représente un lieu ou une position conceptuelle ou physique où les concepts sont situés (par exemple, des éléments de structure) ou exécutés (par exemple, des éléments de comportement).",
+  "othd2" : "Regroupement (Grouping):L'élément de regroupement regroupe ou compose des concepts qui vont ensemble sur la base d'une caractéristique commune.",
+
+  "othe1" : "Emplacement et Regroupement",
 
   "about" : "À propos"
 }

@@ -22,7 +22,7 @@
   "relt6": "Realize: Represents that an entity plays a critical role in the creation, achievement, sustenance, or operation of a more abstract entity. The interpretation of a realization relationship is that the whole or part of the source element realizes the whole of the target element . This means that if, for example, two internal behavior elements have a realization relationship to the same service, either of them can realize the complete service. If both internal behavior elements are needed to realize, the grouping element or an and junction can be used. For weaker types of effects on the realization of a motivation element, the influence relationship should be used.",
   "relt6n": "Realization",
   "relt7": "Influences: Represents that an element affects the implementation or achievement of some motivation element. The influence relationship is used to describe some architectural elements that influence the achievement or implementation of a motivation element, such as a goal or a principle. In general, a motivation element is realized to a certain degree.",
-  "relt7n": "Realization",
+  "relt7n": "Influence",
   "relt8": "Associated with: Represents an unspecified relationship, or one that is not represented by another ArchiMate relationship. The association relationship can be used when drawing a first high-level model where relationships are initially denoted in a generic way, and later refined to show more specific relationship types. ",
   "relt8n": "Association",
   "relt9": "Triggers: Represents a temporal or causal relationship between elements. The triggering relationship is used to model the temporal or causal precedence of behavior elements in a process. The interpretation of a triggering relationship is that some part of the source element should be completed before the target element can start.",
@@ -77,7 +77,6 @@
   "strad1" : "Resource: Represents an asset owned or controlled by an individual or organization.",
   "strad2" : "Capability:  Represents an ability that an active structure element, such as an organization, person, or system, possesses.", 
   "strad3" : "Course of action: Represents an approach or plan for configuring some capabilities and resources of the enterprise, undertaken to achieve a goal.",
-  "strad4" : "Location: Represents a physical location.",
   "strad5" : "Value Stream: A value stream represents a sequence of activities that create an overall result for a customer, stakeholder, or end user.",
 
   "busi" : "Business Layer",
@@ -153,7 +152,6 @@
   "techd11" : "Technology even: Represents a technology state change.",
   "techd12" : "Technology service: Represents an explicitly defined exposed technology behavior. ",
   "techd13" : "Represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.",
-  "techd14" : "Data Object: Represents a data structure.",
 
 
   "phy" : "Physical Elements",
@@ -181,6 +179,16 @@
   "impd4" : "Plateau: Represents a relatively stable state of the architecture that exists during a limited period of time.",
   "impd5" : "Gap: Represents a statement of difference between two plateaus.",
 
+   "oth" : "Other",
+   "othr1" : "Composite elements",
+   "othc1" : "Section",
+   "othc2" : "Icon",
+   "othc3" : "Composite elements example",
+
+   "othd1" : "Location: Represents a conceptual or physical place or position where concepts are located (e.g., structure elements) or performed (e.g., behavior elements).",
+   "othd2" : "Grouping: The grouping element aggregates or composes concepts that belong together based on some common characteristic.",
+
+   "othe1" : "Location and grouping",
 
   "about" : "About A3CC"
 
