@@ -10,16 +10,6 @@
     ]
   },
   {
-    "code": "ru",
-    "name": "Русский",
-    "contributors": [
-      {
-        "translator": "Denis Zagitov",
-        "url": "https://www.linkedin.com/in/DenisZagitov/"
-      }
-    ]
-  },
-  {
     "code": "es",
     "name": "Español",
     "contributors": [
@@ -36,6 +26,16 @@
       {
         "translator": "Guy Bruneau",
         "url": "https://www.linkedin.com/in/guybruneau1964/"
+      }
+    ]
+  },
+  {
+    "code": "ru",
+    "name": "Русский",
+    "contributors": [
+      {
+        "translator": "Denis Zagitov",
+        "url": "https://www.linkedin.com/in/DenisZagitov/"
       }
     ]
   }

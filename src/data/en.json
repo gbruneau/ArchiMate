@@ -77,6 +77,7 @@
   "strad1" : "Resource: Represents an asset owned or controlled by an individual or organization.",
   "strad2" : "Capability:  Represents an ability that an active structure element, such as an organization, person, or system, possesses.", 
   "strad3" : "Course of action: Represents an approach or plan for configuring some capabilities and resources of the enterprise, undertaken to achieve a goal.",
+ 
   "strad5" : "Value Stream: A value stream represents a sequence of activities that create an overall result for a customer, stakeholder, or end user.",
 
   "busi" : "Business Layer",
@@ -97,7 +98,6 @@
   "busia2" : "Business Role: Represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular action or event." ,
   "busia3" : "Business Collaboration: Represents an aggregate of two or more business internal active structure elements that work together to perform collective behavior." ,
   "busia4" :  "Business interface: Represents a point of access where a business service is made available to the environment.",
-
 
   "busid1" : "Business Process: Represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services.",
   "busid2" : "Business Function: Represents a collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole.",
@@ -153,7 +153,7 @@
   "techd12" : "Technology service: Represents an explicitly defined exposed technology behavior. ",
   "techd13" : "Represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.",
 
-
+  
   "phy" : "Physical Elements",
   "phyc1": "Section",
   "phyc2" : "Icon",
