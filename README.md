@@ -7,3 +7,4 @@ See in `src/data` on how to procede.
 TODO:
 
 * Common Viewpoints
+* Translation of diagrams for Russian
