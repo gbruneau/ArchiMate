@@ -10,6 +10,16 @@
     ]
   },
   {
+    "code": "ru",
+    "name": "Русский",
+    "contributors": [
+      {
+        "translator": "Denis Zagitov",
+        "url": "https://www.linkedin.com/in/DenisZagitov/"
+      }
+    ]
+  },
+  {
     "code": "es",
     "name": "Español",
     "contributors": [
